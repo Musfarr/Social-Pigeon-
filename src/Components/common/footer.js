@@ -13,7 +13,7 @@ const Footer = () => {
     </div>
 
     <div style={{width:"351px" , marginTop:"44px" , fontFamily:"Lex" }} >
-        <h2>LOREM IPSUM STANDARD DUMMY TEXT</h2>
+        <h2 className='wt' >LOREM IPSUM STANDARD DUMMY TEXT</h2>
     </div>
 
 </div>
