@@ -5,3 +5,30 @@
 .bt{
     color: black;
 }
+
+.formw{
+
+    width: 410px;
+    height: 44px;
+    border-radius: 10px;
+}
+
+.heading{
+    font-weight: 700;
+    font-size: 46px;
+    color: black;
+    line-height: 55px;
+}
+
+
+.bfont{
+    size: 22px;
+    color: black;
+    font-weight: 400;
+}
+
+.card{
+
+    width: 352px;
+
+}

@@ -1,6 +1,6 @@
 import React from 'react'
 import logo from "../../Assets/images/logo1.svg"
-
+import { Link } from 'react-router-dom'
 
 
 const Header = () => {
@@ -12,22 +12,29 @@ const Header = () => {
         <div uk-navbar>
 
             <div class="uk-navbar-left" >
-
+            <Link to={"/"}>
             <div>
             <img src={logo} />
             </div>
+            </Link>
 
                 <ul class="uk-navbar-nav " style={{marginLeft:"48%" }} >
                     <li>
                         <a href="#" className='wt'  >
-                            <span class="uk-icon uk-margin-small-right" ></span>
+                        <Link to={"/creator"}>
+                            <span class="uk-icon uk-margin-small-right wt  headerbutton"    ></span>
                             For creators
+                        </Link>
                         </a>
                     </li>
+
+
                     <li>
                         <a href="#">
-                            <span class="uk-icon uk-margin-small-right" uk-icon="icon: star"></span>
+                        <Link to={"/home2"}> 
+                            <span class="uk-icon uk-margin-small-right wt headerbutton" ></span>
                             For company 
+                        </Link>
                         </a>
                     </li>
                 </ul>

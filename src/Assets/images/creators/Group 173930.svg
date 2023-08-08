@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="92" height="131" viewBox="0 0 92 131">
+  <g id="Group_173930" data-name="Group 173930" transform="translate(-637 -1285)">
+    <text id="Linkedin" transform="translate(683 1410)" font-size="22" font-family="LexendDeca-Regular, Lexend Deca"><tspan x="-45" y="0">Linkedin</tspan></text>
+    <g id="Group_173995" data-name="Group 173995" transform="translate(1391 4146)">
+      <rect id="Rectangle_144493" data-name="Rectangle 144493" width="69" height="71" transform="translate(-742 -2856)" fill="#fff"/>
+      <path id="iconmonstr-linkedin-3" d="M66.5,0h-49A17.5,17.5,0,0,0,0,17.5v49A17.5,17.5,0,0,0,17.5,84h49A17.5,17.5,0,0,0,84,66.5v-49A17.5,17.5,0,0,0,66.5,0ZM28,66.5H17.5V28H28ZM22.75,23.562a6.174,6.174,0,1,1,6.125-6.174A6.151,6.151,0,0,1,22.75,23.562ZM70,66.5H59.5V46.886c0-11.788-14-10.9-14,0V66.5H35V28H45.5v6.178C50.386,25.127,70,24.458,70,42.844Z" transform="translate(-750 -2861)" fill="#0077b7"/>
+    </g>
+  </g>
+</svg>
