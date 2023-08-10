@@ -21,7 +21,7 @@ const Creator = () => {
 
 <section   >
 
-<div class="uk-height-large  uk-background-cover uk-light uk-padding " style={{height:"768px"}}  data-src={bg1}  uk-img="loading: eager">
+<div class="uk-height-large  uk-background-cover   " style={{height:"768px"}}  data-src={bg1}  uk-img="loading: eager">
     <Header/>
     
     <div className='uk-padding-large '>
@@ -64,10 +64,14 @@ const Creator = () => {
 
 
  
-<div class="  uk-flex uk-flex-center  uk-background-cover " style={{height:"766px"}}  data-src={bg2}  uk-img="loading: eager">
-  <h1>Background Image</h1>
+<div class="    uk-flex uk-flex-center  uk-background-cover   " style={{height:"1190px"}}  data-src={bg2}  uk-img="loading: eager">
 
-  <div>
+
+
+
+
+
+  <div className='uk-flex uk-flex-wrap uk-flex-middle uk-padding uk-flex-between ' > 
 
   <div className='card' >
         <div class="uk-card uk-card-default">
@@ -103,6 +107,7 @@ const Creator = () => {
             </div>
         </div>
     </div>
+
   <div className='card'>
         <div class="uk-card uk-card-default">
             <div class="uk-card-media-top">
@@ -115,19 +120,20 @@ const Creator = () => {
         </div>
     </div>
 
+
   </div>
   
     
 </div>
 
 
-{/* <section style={{height:"893px"}} >
+<section style={{height:"893px"}} >
 
-<div class="uk-flex uk-flex-center uk-flex-middle uk-background-cover uk-light" style={{height:"766px"}}  data-src={bg3}  uk-img="loading: eager">
+<div class="uk-flex uk-flex-center uk-flex-middle uk-background-cover " style={{height:"766px"}}  data-src={bg3}  uk-img="loading: eager">
   <h1>Background Image</h1>
 </div>
     
-</section> */}
+</section>
 
 
 <section style={{height:"300px" , backgroundColor:"#F5F5F5" }} >
@@ -141,7 +147,7 @@ const Creator = () => {
 
 
 <section>
-<div class="uk-flex uk-flex-center uk-flex-middle uk-background-cover uk-light" style={{height:"500px"}}  data-src={bg3}>
+<div class="uk-flex uk-flex-center uk-flex-middle uk-background-cover " style={{height:"500px"}}  data-src={bg3}>
   <h1></h1>
 </div>
 </section>
@@ -155,7 +161,7 @@ const Creator = () => {
 
 
 <section>
-<div class="uk-flex uk-flex-center uk-flex-middle uk-background-cover uk-light" style={{height:"300px"}}  data-src={bg4}  uk-img="loading: eager">
+<div class="uk-flex uk-flex-center uk-flex-middle uk-background-cover " style={{height:"300px"}}  data-src={bg4}  uk-img="loading: eager">
   <h1>Background Image</h1>
 </div>
 </section>

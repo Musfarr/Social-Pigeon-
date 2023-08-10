@@ -6,23 +6,27 @@ import bg4 from "../../Assets/images/green.svg"
 import grp1 from "../../Assets/images/grp1.png"
 import L1 from "../../Assets/images/pso.png"
 import L2 from "../../Assets/images/L2.png"
+import vifile from "../../Assets/images/rotating.webm"
 import Footer from '../common/footer'
 import Header from '../common/header'
+import tabimg from "../../Assets/images/tabimg.png"
+import cimg from "../../Assets/images/collaborate.svg"
+
 
 
 
 const Home = () => {
   return (
-<div  >
+<div  className='' >
 
 
 
-<section   >
+<section  >
 
-<div class="uk-height-large  uk-background-cover uk-light uk-padding " style={{height:"768px"}}  data-src={bg1}  uk-img="loading: eager">
+<div class="uk-height-large  uk-background-cover uk-light   " style={{height:"768px"}}  data-src={bg1}  uk-img="loading: eager">
     <Header/>
     
-    <div className='uk-padding-large '>
+    <div className='uk-container uk-padding-large '>
     <div style={{width:"427px"}}>
     <h1 style={{color:"#02F195" , fontWeight:"700" , fontSize:"57px" ,fontFamily:"Lexend Deca" }} >  Welcome <br></br> to the world of Social Pigeons </h1>
     </div>
@@ -41,23 +45,34 @@ const Home = () => {
 
 <section style={{height:"842px"}} >
 
-    <div className='uk-flex uk-flex-center uk-flex-middle uk-text-center  ' >
-        <div className='uk-padding-large' >
+    <div className='uk-flex uk-flex-center uk-flex-middle uk-text-center sec2heading  ' >
+        <div className='' >
             <h1  className='bt' style={{fontWeight:"700" , }}> About social pigeons </h1>
 
             <div style={{width:"620px" }}>
             <h5 className='bt'  style={{fontWeight:"400" , fontSize:"22px"}} > A platform that helps influencers and brands stay digitally connected to smartly market the products and services. </h5>
-            
-        </div>
-            
-            
-            
-            
-             </div>
+            </div>
 
+        </div>
+        </div>
+    <div className='video uk-container' >
+      <video 
+      src= {vifile}
+      autoPlay
+      loop
+      muted>
+
+      </video>
+
+    </div> 
+
+
+          
         
 
-    </div>
+
+
+        
     
 </section>
 
@@ -82,8 +97,77 @@ const Home = () => {
 <section style={{height:"893px"}} >
 
     <div className='uk-flex uk-flex-center uk-flex-middle uk-padding' >
-    <h1 className='heading'>Transforming the way to connect</h1>
+      
+    <h1 className='heading sec2heading'>Transforming the way to connect</h1>
     </div>
+
+
+    <div><ul class="uk-subnav uk-subnav-pill uk-flex-center tabbuttons" uk-switcher="animation: uk-animation-slide-left-medium, uk-animation-slide-right-medium">
+    <li><a className='tabbutton' > Item </a> </li>
+    <li><a >Item</a></li>
+    <li><a >Item</a></li>
+    </ul>
+    
+
+
+
+<ul class="uk-switcher uk-margin">
+<li><div className='uk-container uk-flex uk-padding ' >
+
+        <div>
+          <img src={cimg} />
+
+
+
+
+          <p className='heading'>Collaborate</p>
+
+          <div className='text1 bfont' >
+          <p>With brands to influence creatively.</p>
+          </div>
+        </div>
+        <div className='' >
+          <img className='tabimg' src={tabimg}  />
+        </div>
+      </div></li>
+
+
+    <li><div className='uk-container uk-flex uk-padding ' >
+        <div>
+        <img src={cimg} />
+
+          <p className='heading'>Showup</p>
+
+          <div className='text1 bfont' >
+          <p>With brands to influence creatively.</p>
+          </div>
+        </div>
+        <div className='' >
+          <img className='tabimg' src={tabimg}  />
+        </div>
+      </div></li>
+
+
+   <li><div className='uk-container uk-flex uk-padding ' >
+        <div>
+        <img src={cimg} />
+
+          <p className='heading'>Earn</p>
+
+          <div className='text1 bfont' >
+          <p>With brands to influence creatively.</p>
+          </div>
+        </div>
+        <div className='' >
+          <img className='tabimg' src={tabimg}  />
+        </div>
+      </div></li>
+</ul>
+</div>
+
+
+
+
     
 </section>
 
@@ -105,10 +189,6 @@ const Home = () => {
       <img src={L1} />
       <img src={L2} />
 
-
-      
-      
-      
       
       </div>  
 </section>
@@ -118,7 +198,7 @@ const Home = () => {
 
 <section>
 <div class="uk-flex uk-flex-center uk-flex-middle uk-background-cover uk-light" style={{height:"500px"}}  data-src={bg3}>
-  <h1>bbbbbbbbbbbb</h1>
+  
 </div>
 </section>
 

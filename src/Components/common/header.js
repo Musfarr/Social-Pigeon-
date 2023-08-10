@@ -7,8 +7,8 @@ const Header = () => {
   return (
     <div>
 
-<nav class="uk-navbar-container uk-padding " style={{backgroundColor:"transparent"}} >
-    <div class="uk-container">
+<nav class="uk-navbar-container  " style={{backgroundColor:"transparent"}} >
+    <div class="uk-container navbar">
         <div uk-navbar>
 
             <div class="uk-navbar-left" >
@@ -22,7 +22,7 @@ const Header = () => {
                     <li>
                         <a href="#" className='wt'  >
                         <Link to={"/creator"}>
-                            <span class="uk-icon uk-margin-small-right wt  headerbutton"    ></span>
+                            <span class=" uk-margin-small-right wt  headerbutton"    ></span>
                             For creators
                         </Link>
                         </a>
@@ -32,7 +32,7 @@ const Header = () => {
                     <li>
                         <a href="#">
                         <Link to={"/home2"}> 
-                            <span class="uk-icon uk-margin-small-right wt headerbutton" ></span>
+                            <span class=" uk-margin-small-right wt headerbutton" ></span>
                             For company 
                         </Link>
                         </a>
@@ -43,7 +43,7 @@ const Header = () => {
 
                 <div class="uk-navbar-item">
                     <form action="javascript:void(0)">
-                    <button style={{backgroundColor:"#02EF93" , borderRadius:"20px" }} class="uk-button uk-button-primary">JOIN</button>
+                    <button style={{backgroundColor:"#02EF93" , borderRadius:"20px" }} class="uk-button uk-button-primary ">JOIN</button>
                     </form>
                 </div>
 

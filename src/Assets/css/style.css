@@ -4,6 +4,11 @@
 
 .bt{
     color: black;
+
+}
+
+.sec2heading{
+    padding-top: 80px;
 }
 
 .formw{
@@ -30,5 +35,46 @@
 .card{
 
     width: 352px;
+    
 
+}
+
+.navbar{
+    padding-top: 44.9px;
+}
+
+.text1{
+    width: 317px;
+}
+
+.tabbuttons{
+    background-color: #E4E4E499;
+    width: 408px;
+    margin-left: 515px;
+    justify-content: space-around;
+
+}
+.tabimg{
+    padding-left: 51px;
+}
+
+.video{
+
+    height: 509px ;
+    width: 904px;
+    border-radius: 20px;
+
+}
+.video video{
+    border-radius: 10px;
+}
+
+.uk-subnav-pill > .uk-active > a {
+    color: #fff;
+    border-radius: 18px;
+    background-color: #02EF93;
+
+}
+.uk-subnav-pill > * > :first-child {
+    padding: 7px 42px;
 }
