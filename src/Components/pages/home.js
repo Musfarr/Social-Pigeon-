@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react';
 import bg1 from "../../Assets/images/bg1.png"
 import bg2 from "../../Assets/images/greenbg.svg"
 import bg from "../../Assets/images/wide.png"
@@ -16,6 +16,8 @@ import cimg from "../../Assets/images/collaborate.svg"
 
 
 const Home = () => {
+  
+
   return (
 <div  className='' >
 
@@ -172,85 +174,81 @@ const Home = () => {
 </section>
 
 
+
+
+\
 <section style={{height:"300px" , backgroundColor:"#F5F5F5" }} >
 
     <div className='uk-flex uk-flex-center uk-flex-middle uk-padding ' >
     <h1 className='heading' >Our clients</h1>
     </div>  
 
-    <div className='uk-flex uk-flex-between uk-padding '>
+    <div className='uk-flex uk-flex-between uk-container' >      
       
-      {/* <img src={L1} />
-      <img src={L2} />
       <img src={L1} />
       <img src={L2} />
       <img src={L1} />
       <img src={L2} />
       <img src={L1} />
-      <img src={L2} /> */}
+      <img src={L2} />
+      <img src={L1} />
+        <img src={L2} />
+      </div>
 
 
-<div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slider>
+      
 
-<ul class="uk-slider-items uk-child-width-1-2 uk-child-width-1-3@s uk-child-width-1-4@m uk-container">
-    <li>
-        <img src={L2} />
-        <div class="uk-position-center uk-panel"></div>
-    </li>
-    <li>
-        <img src={L2} />
-        <div class="uk-position-center uk-panel"></div>
-    </li>
-    <li>
-        <img src={L2} />
-        <div class="uk-position-center uk-panel"></div>
-    </li>
-    <li>
-        <img src={L2} />
-        <div class="uk-position-center uk-panel"></div>
-    </li>
-    <li>
-        <img src={L2} />
-        <div class="uk-position-center uk-panel"></div>
-    </li>
-    <li>
-        <img src={L2} />
-        <div class="uk-position-center uk-panel"></div>
-    </li>
-    <li>
-        <img src={L2} />
-        <div class="uk-position-center uk-panel"></div>
-    </li>
-    <li>
-        <img src={L2} />
-        <div class="uk-position-center uk-panel"></div>
-    </li>
-    <li>
-        <img src={L2} />
-        <div class="uk-position-center uk-panel"></div>
-    </li>
-    <li>
-        <img src={L2} />
-        <div class="uk-position-center uk-panel"></div>
-    </li>
-</ul>
 
-<a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slider-item="previous"></a>
-<a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slider-item="next"></a>
+    <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slider="">
+
+    <ul class="uk-slider-items uk-child-width-1-2 uk-child-width-1-3@s uk-child-width-1-4@m">
+        <li>
+        <img src={L1} />
+            <div class="uk-position-center uk-panel"><h1>1</h1></div>
+        </li>
+        <li>
+        <img src={L2} />
+            <div class="uk-position-center uk-panel"><h1>2</h1></div>
+        </li>
+        <li>
+        <img src={L1} />
+            <div class="uk-position-center uk-panel"><h1>3</h1></div>
+        </li>
+        <li>
+        <img src={L1} />
+            <div class="uk-position-center uk-panel"><h1>4</h1></div>
+        </li>
+        <li>
+        <img src={L1} />
+            <div class="uk-position-center uk-panel"><h1>5</h1></div>
+        </li>
+        <li>
+                      <img src={L1} />
+            <div class="uk-position-center uk-panel"><h1>6</h1></div>
+        </li>
+        <li>
+                      <img src={L1} />
+            <div class="uk-position-center uk-panel"><h1>7</h1></div>
+        </li>
+        <li>
+                      <img src={L1} />
+            <div class="uk-position-center uk-panel"><h1>8</h1></div>
+        </li>
+        <li>
+                      <img src={L1} />
+            <div class="uk-position-center uk-panel"><h1>9</h1></div>
+        </li>
+        <li>
+                      <img src={L1} />
+            <div class="uk-position-center uk-panel"><h1>10</h1></div>
+        </li>
+    </ul>
+
+    <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slider-item="previous"></a>
+    <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slider-item="next"></a>
+
 
 </div>
-
-
-
-
-
-
-
-      
-      </div>  
-
-
-
 
 
 </section>
@@ -290,7 +288,7 @@ const Home = () => {
 
       <div className='uk-padding '  style={{height:"40px" , marginLeft:"-250px" }} >
 
-      <ul class="uk-subnav uk-subnav-pill uk-flex-center tabbuttons" uk-switcher="animation: uk-animation-slide-left-medium, uk-animation-slide-right-medium">
+      <ul class="uk-subnav uk-subnav-pill uk-flex-center tabbuttons" uk-switcher="connect:.formtab">
     <li><a className='' > Personal Info </a> </li>
     <li><a > Social Info </a></li>
     </ul>
@@ -299,62 +297,122 @@ const Home = () => {
 
 
 
-    <div className='uk-padding  uk-box-shadow-xlarge ' style={{height:"483px" , width:"904px" ,borderRadius:"20px" }} >
-
-      <div className='uk-grid   '>
-
-      <div class="">
-        <label class="uk-align-left flabels " for="form-stacked-text">Name</label>
-        <div class="">
-            <input class="uk-input formw  " id="form-stacked-text" type="text" placeholder="First Name "/>
-        </div>
-    </div>
-
-      <div class="">
-        
-        <label class="uk-align-left flabels " for="form-stacked-text"> Name  </label>
-        <div class="">
-            <input class="uk-input  formw " id="form-stacked-text" type="text" placeholder="Last Name"/>
-        </div>
-    </div>
-      <div class="">
-        <label class="uk-align-left flabels " for="form-stacked-text">Email</label>
-        <div class="">
-            <input class="uk-input  formw " id="form-stacked-text" type="text" placeholder="Some text..."/>
-        </div>
-    </div>
-      <div class="">
-        <label class="uk-align-left flabels " for="form-stacked-text">Phone number</label>
-        <div class="">
-            <input class="uk-input  formw " id="form-stacked-text" type="text" placeholder="Some text..."/>
-        </div>
-
-    </div>
-      <div class="">
-      <label class="uk-align-left flabels " for="form-stacked-text">Address</label>
-        <div class="">
-            <input class="uk-input  formw " id="form-stacked-text" type="text" placeholder="Some text..."/>
-        </div>
-    </div>
+<div className='uk-padding  uk-box-shadow-xlarge ' style={{height:"483px" , width:"904px" ,borderRadius:"20px" }} >
 
 
+    <ul class="uk-switcher uk-margin formtab">
+<li><div className='uk-grid   '>
 
-      <div class="">
-        <label class="uk-align-left flabels " for="form-stacked-text">Gender</label>
-        <div class="">
-            <input class="uk-input  formw " id="form-stacked-text" type="text" placeholder="Some text..."/>
-        </div>
-    </div>
+<div class="">
+  <label class="uk-align-left flabels " for="form-stacked-text">Name</label>
+  <div class="">
+      <input class="uk-input formw  " id="form-stacked-text" type="text" placeholder="First Name "/>
+  </div>
+</div>
 
-    <div className='uk-align-end' >
-    <button style={{backgroundColor:"#02EF93" , borderRadius:"22px" }} className=" fbutton ">Next</button>
-
-    </div>
-
-
+<div class="">
   
+  <label class="uk-align-left flabels " for="form-stacked-text"> Name  </label>
+  <div class="">
+      <input class="uk-input  formw " id="form-stacked-text" type="text" placeholder="Last Name"/>
+  </div>
+</div>
+<div class="">
+  <label class="uk-align-left flabels " for="form-stacked-text">Email</label>
+  <div class="">
+      <input class="uk-input  formw " id="form-stacked-text" type="text" placeholder="Some text..."/>
+  </div>
+</div>
+<div class="">
+  <label class="uk-align-left flabels " for="form-stacked-text">Phone number</label>
+  <div class="">
+      <input class="uk-input  formw " id="form-stacked-text" type="text" placeholder="Some text..."/>
+  </div>
 
-      </div>
+</div>
+<div class="">
+<label class="uk-align-left flabels " for="form-stacked-text">Address</label>
+  <div class="">
+      <input class="uk-input  formw " id="form-stacked-text" type="text" placeholder="Some text..."/>
+  </div>
+</div>
+
+
+
+<div class="">
+  <label class="uk-align-left flabels " for="form-stacked-text">Gender</label>
+  <div class="">
+      <input class="uk-input  formw " id="form-stacked-text" type="text" placeholder="Some text..."/>
+  </div>
+</div>
+
+<div className='uk-align-end' >
+<button style={{backgroundColor:"#02EF93" , borderRadius:"22px" }} className=" fbutton ">Next</button>
+
+</div>
+
+
+
+
+</div></li>
+
+<li><div className='uk-grid   '>
+
+<div class="">
+  <label class="uk-align-left flabels " for="form-stacked-text">Name###############</label>
+  <div class="">
+      <input class="uk-input formw  " id="form-stacked-text" type="text" placeholder="First Name "/>
+  </div>
+</div>
+
+<div class="">
+  
+  <label class="uk-align-left flabels " for="form-stacked-text"> Name######################  </label>
+  <div class="">
+      <input class="uk-input  formw " id="form-stacked-text" type="text" placeholder="Last Name"/>
+  </div>
+</div>
+<div class="">
+  <label class="uk-align-left flabels " for="form-stacked-text">Email</label>
+  <div class="">
+      <input class="uk-input  formw " id="form-stacked-text" type="text" placeholder="Some text..."/>
+  </div>
+</div>
+<div class="">
+  <label class="uk-align-left flabels " for="form-stacked-text">Phone number</label>
+  <div class="">
+      <input class="uk-input  formw " id="form-stacked-text" type="text" placeholder="Some text..."/>
+  </div>
+
+</div>
+<div class="">
+<label class="uk-align-left flabels " for="form-stacked-text">Address</label>
+  <div class="">
+      <input class="uk-input  formw " id="form-stacked-text" type="text" placeholder="Some text..."/>
+  </div>
+</div>
+
+
+
+<div class="">
+  <label class="uk-align-left flabels " for="form-stacked-text">Gender</label>
+  <div class="">
+      <input class="uk-input  formw " id="form-stacked-text" type="text" placeholder="Some text..."/>
+  </div>
+</div>
+
+<div className='uk-align-end' >
+<button style={{backgroundColor:"#02EF93" , borderRadius:"22px" }} className=" fbutton ">Next</button>
+
+</div>
+
+
+
+
+</div></li>
+</ul>
+
+
 
     </div>
     </div>
@@ -370,7 +428,9 @@ const Home = () => {
 <div class="uk-flex uk-flex-column  uk-flex-middle uk-padding uk-background-cover uk-light " style={{height:"300px"}}  data-src={bg4}  uk-img="loading: eager">
   <p className='heading' >Subscribe to Newsletter</p>
   <span uk-icon="icon: check"></span>
-<input class=" formw underline-input" id="form-stacked-text" type="text" placeholder="Enter your phone Number"/>
+
+
+<input class="  underline-input" id="form-stacked-text" type="text" placeholder="Enter your phone Number"/>
 </div>
 
 

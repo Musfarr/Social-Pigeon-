@@ -1,5 +1,11 @@
 import React from 'react'
 import bg1 from "../../Assets/images/creators/bg1.png"
+import fb1 from "../../Assets/images/creators/fb.svg"
+import fb2 from "../../Assets/images/creators/fb1.svg"
+import fb3 from "../../Assets/images/creators/fb2.svg"
+import fb4 from "../../Assets/images/creators/fb3.svg"
+import fb5 from "../../Assets/images/creators/fb4.svg"
+import fb6 from "../../Assets/images/creators/fb5.svg"
 import bg2 from "../../Assets/images/greenbg.svg"
 import bg3 from "../../Assets/images/creators/bg3.png"
 import bg4 from "../../Assets/images/green.svg"
@@ -24,12 +30,16 @@ const Creator = () => {
 <div class="uk-height-large  uk-background-cover   " style={{height:"768px"}}  data-src={bg1}  uk-img="loading: eager">
     <Header/>
     
-    <div className='uk-padding-large '>
+    <div style={{paddingTop:"119px"}} className='uk-container   '>
     <div style={{width:"427px"}}>
-    <h1 style={{color:"#02F195" , fontWeight:"700" , fontSize:"57px" ,fontFamily:"Lexend Deca" }} >  Welcome <br></br> to the world of Social Pigeons </h1>
+    <h1 style={{color:"#02F195" , fontWeight:"700" , fontSize:"57px" ,fontFamily:"Lexend Deca" }} >  Join Us Now </h1>
     </div>
+
+    <h1  className='wheading2' > Transform the <br />Creative Era </h1>
+
+
     <div style={{width:"444px"}} >
-        <p className='wt' style={{fontSize:"24px" , fontWeight:"400"}} >Navigate your digital world with exceptional influencers and social media marketing.</p>
+        <p className='wt' style={{fontSize:"24px" , fontWeight:"400"}} >Join Social Pigeons and get digitally connected to showcase your influencing skills. As an influencer, this would be a great chance for you to shine and give collaboration opportunities a boost.</p>
     </div>
     </div>
 
@@ -45,11 +55,25 @@ const Creator = () => {
 
     <div className='uk-flex uk-flex-center uk-flex-middle uk-text-center  ' >
         <div className='uk-padding-large' >
-            <h1  className='bt' style={{fontWeight:"700" , }}> Leave The Influence On Creators</h1>
+            <h1  className='sec2heading heading' > Dont Wait for Inspiration, Be One</h1>
 
-            <div style={{width:"620px" }}>
-            <h5 className='bt'  style={{fontWeight:"400"}} > A platform that helps influencers and brands stay digitally connected to smartly market the products and services. </h5>
+            <div style={{width:"804px"}} >
+            <h5 className='bfont' > Calling out Pakistani creators from all social media platforms. If you've got a mind fizzed with creativity and have a good number of followers, then join Social Pigeons. Let your talent earn you both money and fame. </h5>
             
+        </div>
+
+
+        <div className='  uk-grid-large     '  style={{width : "804px" , marginLeft:"10px" }} >
+
+        <img className='sociallogo' src={fb1}  />           
+        <img className='sociallogo' src={fb2}  />           
+        <img className='sociallogo' src={fb3}  />           
+        <img className='sociallogo' src={fb4}  />           
+        <img className='sociallogo' src={fb5}  />           
+        <img className='sociallogo' src={fb6}  />           
+
+
+
         </div>
             
             
@@ -64,17 +88,39 @@ const Creator = () => {
 
 
  
-<div class="    uk-flex uk-flex-center  uk-background-cover   " style={{height:"1190px"}}  data-src={bg2}  uk-img="loading: eager">
+<div class="     uk-flex-center  uk-background-cover  uk-padding  " style={{height:"1190px"}}  data-src={bg2}  uk-img="loading: eager">
 
+    <div>
+  <p className=' uk-container   heading' >Perks Offered to Creators</p>
+  </div>
 
+  <div className=' uk-container uk-padding    ' > 
+    <div className='uk-grid' uk-grid="">
+  <div className='card ' >
+        <div class="crdimg  uk-card uk-card-default">
+            <div class="uk-card-media-top">
+                <img className='crdimg'  src={c1} width="352" height="200" />
+            </div>
+            <div class="uk-card-body">
+                <h3 class="uk-card-title">Media Top</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+            </div>
+        </div>
+    </div>
 
-
-
-
-  <div className='uk-flex uk-flex-wrap uk-flex-middle uk-padding uk-flex-between ' > 
-
-  <div className='card' >
-        <div class="uk-card uk-card-default">
+  <div className='card'>
+        <div class="crdimg uk-card uk-card-default">
+            <div class=" uk-card-media-top">
+                <img className='' src={c2} width="352" height="200" />
+            </div>
+            <div class="uk-card-body">
+                <h3 class="uk-card-title">Media Top</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+            </div>
+        </div>
+    </div>
+  <div className='card'>
+        <div class="crdimg  uk-card uk-card-default">
             <div class="uk-card-media-top">
                 <img src={c1} width="352" height="200" />
             </div>
@@ -86,7 +132,7 @@ const Creator = () => {
     </div>
 
   <div className='card'>
-        <div class="uk-card uk-card-default">
+        <div class= " crdimg uk-card uk-card-default">
             <div class="uk-card-media-top">
                 <img src={c2} width="352" height="200" />
             </div>
@@ -97,19 +143,7 @@ const Creator = () => {
         </div>
     </div>
   <div className='card'>
-        <div class="uk-card uk-card-default">
-            <div class="uk-card-media-top">
-                <img src={c1} width="352" height="200" />
-            </div>
-            <div class="uk-card-body">
-                <h3 class="uk-card-title">Media Top</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
-            </div>
-        </div>
-    </div>
-
-  <div className='card'>
-        <div class="uk-card uk-card-default">
+        <div class= " crdimg uk-card uk-card-default">
             <div class="uk-card-media-top">
                 <img src={c2} width="352" height="200" />
             </div>
@@ -118,6 +152,7 @@ const Creator = () => {
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
             </div>
         </div>
+    </div>
     </div>
 
 
@@ -127,44 +162,121 @@ const Creator = () => {
 </div>
 
 
-<section style={{height:"893px"}} >
+<section style={{height:"505px"}} >
+<div class="    " style={{height:"505px"}}  data-src={bg3}  uk-img="loading: eager">
 
-<div class="uk-flex uk-flex-center uk-flex-middle uk-background-cover " style={{height:"766px"}}  data-src={bg3}  uk-img="loading: eager">
-  <h1>Background Image</h1>
-</div>
+
+    <div className='uk-container uk-padding'>
+  <div>
+  <h1 className='wheading2   '> Say hello to <br />your wings </h1>
+  </div>
+    <div>
+  <p className='wt text2  ' style={{fontSize:"24px" , fontWeight:"400"}} >Join Social Pigeons and get digitally connected to showcase your influencing skills. As an influencer, this would be a great chance for you to shine and give collaboration opportunities a boost.</p>
+  </div>
+  </div>
+
+</div>    
+</section>
+
+
+
+<section>
+<div class=" uk-flex uk-text-center  uk-flex-center    " style={{height:"1022px" ,backgroundColor:"#FFFFFF" }}    >
+
+  <div>
+
+  <p className='heading sec2heading '> Signup Here </p>
+  <p className='bfont'>We help you get wings</p>
+
     
-</section>
+    <div className=''  style={{height:"567px" ,backgroundColor:""}} >
+
+      <div className='uk-padding '  style={{height:"40px" , marginLeft:"-250px" }} >
+
+      <ul class="uk-subnav uk-subnav-pill uk-flex-center tabbuttons" uk-switcher="animation: uk-animation-slide-left-medium, uk-animation-slide-right-medium">
+    <li><a className='' > Personal Info </a> </li>
+    <li><a > Social Info </a></li>
+    </ul>
+
+      </div>
 
 
-<section style={{height:"300px" , backgroundColor:"#F5F5F5" }} >
 
-    <div className='uk-flex uk-flex-center uk-flex-middle ' >
-    <h1>Background Image</h1>
-    </div>    
-</section>
+<div className='uk-padding  uk-box-shadow-xlarge ' style={{height:"483px" , width:"904px" ,borderRadius:"20px" }} >
 
 
+    <ul class="uk-switcher uk-margin">
+<li></li>
+
+<li></li>
+</ul>
 
 
-<section>
-<div class="uk-flex uk-flex-center uk-flex-middle uk-background-cover " style={{height:"500px"}}  data-src={bg3}>
-  <h1></h1>
+
+      <div className='uk-grid   '>
+
+      <div class="">
+        <label class="uk-align-left flabels " for="form-stacked-text">Name</label>
+        <div class="">
+            <input class="uk-input formw  " id="form-stacked-text" type="text" placeholder="First Name "/>
+        </div>
+    </div>
+
+      <div class="">
+        
+        <label class="uk-align-left flabels " for="form-stacked-text"> Name  </label>
+        <div class="">
+            <input class="uk-input  formw " id="form-stacked-text" type="text" placeholder="Last Name"/>
+        </div>
+    </div>
+      <div class="">
+        <label class="uk-align-left flabels " for="form-stacked-text">Email</label>
+        <div class="">
+            <input class="uk-input  formw " id="form-stacked-text" type="text" placeholder="Some text..."/>
+        </div>
+    </div>
+      <div class="">
+        <label class="uk-align-left flabels " for="form-stacked-text">Phone number</label>
+        <div class="">
+            <input class="uk-input  formw " id="form-stacked-text" type="text" placeholder="Some text..."/>
+        </div>
+
+    </div>
+      <div class="">
+      <label class="uk-align-left flabels " for="form-stacked-text">Address</label>
+        <div class="">
+            <input class="uk-input  formw " id="form-stacked-text" type="text" placeholder="Some text..."/>
+        </div>
+    </div>
+
+
+
+      <div class="">
+        <label class="uk-align-left flabels " for="form-stacked-text">Gender</label>
+        <div class="">
+            <input class="uk-input  formw " id="form-stacked-text" type="text" placeholder="Some text..."/>
+        </div>
+    </div>
+
+    <div className='uk-align-end' >
+        
+    <button style={{backgroundColor:"#02EF93" , borderRadius:"22px" }} className=" fbutton ">Next</button>
+
+    </div>
+
+
+  
+
+      </div>
+
+    </div>
+    </div>
+
+
+  </div>
 </div>
 </section>
 
-
-<section>
-<div class="uk-flex uk-flex-center uk-flex-middle  " style={{height:"1022px" ,backgroundColor:"#FFFFFF" }}    >
-  <h1> Image</h1>
-</div>
-</section>
-
-
-<section>
-<div class="uk-flex uk-flex-center uk-flex-middle uk-background-cover " style={{height:"300px"}}  data-src={bg4}  uk-img="loading: eager">
-  <h1>Background Image</h1>
-</div>
-</section>
 
 <Footer/>
 

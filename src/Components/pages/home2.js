@@ -115,17 +115,39 @@ const Home2 = () => {
 
 
  
-<div class="    uk-flex uk-flex-center  uk-background-cover   " style={{height:"1190px"}}  data-src={bg2}  uk-img="loading: eager">
+<div class="     uk-flex-center  uk-background-cover  uk-padding  " style={{height:"1190px"}}  data-src={bg2}  uk-img="loading: eager">
 
+    <div>
+  <p className=' uk-container   heading' >Perks Offered to Creators</p>
+  </div>
 
+  <div className='uk-grid uk-container uk-padding    ' > 
 
+  <div className='card ' >
+        <div class="crdimg  uk-card uk-card-default">
+            <div class="uk-card-media-top">
+                <img className='crdimg'  src={c1} width="352" height="200" />
+            </div>
+            <div class="uk-card-body">
+                <h3 class="uk-card-title">Media Top</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+            </div>
+        </div>
+    </div>
 
-
-
-  <div className='uk-flex uk-flex-wrap uk-flex-middle uk-container uk-flex-between ' > 
-
-  <div className='card' >
-        <div class="uk-card uk-card-default">
+  <div className='card'>
+        <div class="crdimg uk-card uk-card-default">
+            <div class=" uk-card-media-top">
+                <img className='' src={c2} width="352" height="200" />
+            </div>
+            <div class="uk-card-body">
+                <h3 class="uk-card-title">Media Top</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+            </div>
+        </div>
+    </div>
+  <div className='card'>
+        <div class="crdimg  uk-card uk-card-default">
             <div class="uk-card-media-top">
                 <img src={c1} width="352" height="200" />
             </div>
@@ -137,7 +159,7 @@ const Home2 = () => {
     </div>
 
   <div className='card'>
-        <div class="uk-card uk-card-default">
+        <div class= " crdimg uk-card uk-card-default">
             <div class="uk-card-media-top">
                 <img src={c2} width="352" height="200" />
             </div>
@@ -148,19 +170,7 @@ const Home2 = () => {
         </div>
     </div>
   <div className='card'>
-        <div class="uk-card uk-card-default">
-            <div class="uk-card-media-top">
-                <img src={c1} width="352" height="200" />
-            </div>
-            <div class="uk-card-body">
-                <h3 class="uk-card-title">Media Top</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
-            </div>
-        </div>
-    </div>
-
-  <div className='card'>
-        <div class="uk-card uk-card-default">
+        <div class= " crdimg uk-card uk-card-default">
             <div class="uk-card-media-top">
                 <img src={c2} width="352" height="200" />
             </div>
@@ -180,8 +190,12 @@ const Home2 = () => {
 
 <section style={{height:"893px"}} >
 
-<div class="uk-flex uk-flex-center uk-flex-middle uk-background-cover uk-light" style={{height:"766px"}}  data-src={bg3}  uk-img="loading: eager">
-  <h1></h1>
+<div class=" uk-flex uk-flex-middle  uk-background-cover uk-light" style={{height:"766px"}}  data-src={bg3}  uk-img="loading: eager">
+
+<div className=' uk-container'>
+  <h1 className='wheading whpd  '> CHANGE YOUR <br />MARKETING GAME </h1>
+</div>
+
 </div>
     
 </section>
@@ -192,49 +206,66 @@ const Home2 = () => {
 
   <div>
 
-  <h1> Signup Here </h1>
-  <p>We help you get wings</p>
+  <p className='heading sec2heading '> Signup Here </p>
+  <p className='bfont'>We help you get wings</p>
 
     
     <div className=''  style={{height:"567px" ,backgroundColor:""}} >
 
-      <div className='uk-padding'  style={{height:"40px" ,backgroundColor:"black"}} >
+      <div className='uk-padding '  style={{height:"40px" , marginLeft:"-250px" }} >
+
+      <ul class="uk-subnav uk-subnav-pill uk-flex-center tabbuttons" uk-switcher="animation: uk-animation-slide-left-medium, uk-animation-slide-right-medium">
+    <li><a className='' > Personal Info </a> </li>
+    <li><a > Social Info </a></li>
+    </ul>
+
       </div>
 
 
 
-    <div className='uk-padding  uk-box-shadow-xlarge uk-container ' style={{height:"483px" , width:"904px" ,borderRadius:"20px" }} >
+    <div className='uk-padding  uk-box-shadow-xlarge ' style={{height:"483px" , width:"904px" ,borderRadius:"20px" }} >
 
-      <div className='uk-grid  '>
+
+
+<ul class="uk-switcher uk-margin">
+<li></li>
+
+<li></li>
+</ul>
+
+
+
+      <div className='uk-grid   '>
 
       <div class="">
-        <label class="uk-form-label" for="form-stacked-text">Text</label>
+        <label class="uk-align-left flabels " for="form-stacked-text">Name</label>
         <div class="">
-            <input class="uk-input formw  " id="form-stacked-text" type="text" placeholder="Some text..."/>
+            <input class="uk-input formw  " id="form-stacked-text" type="text" placeholder="First Name "/>
         </div>
     </div>
 
       <div class="">
-        <label class="uk-form-label" for="form-stacked-text">Text</label>
+        
+        <label class="uk-align-left flabels " for="form-stacked-text"> Name  </label>
+        <div class="">
+            <input class="uk-input  formw " id="form-stacked-text" type="text" placeholder="Last Name"/>
+        </div>
+    </div>
+      <div class="">
+        <label class="uk-align-left flabels " for="form-stacked-text">Email</label>
         <div class="">
             <input class="uk-input  formw " id="form-stacked-text" type="text" placeholder="Some text..."/>
         </div>
     </div>
       <div class="">
-        <label class="uk-form-label" for="form-stacked-text">Text</label>
-        <div class="">
-            <input class="uk-input  formw " id="form-stacked-text" type="text" placeholder="Some text..."/>
-        </div>
-    </div>
-      <div class="">
-        <label class="uk-form-label" for="form-stacked-text">Text</label>
+        <label class="uk-align-left flabels " for="form-stacked-text">Phone number</label>
         <div class="">
             <input class="uk-input  formw " id="form-stacked-text" type="text" placeholder="Some text..."/>
         </div>
 
     </div>
       <div class="">
-        <label class="uk-form-label  " for="form-stacked-text">Text</label>
+      <label class="uk-align-left flabels " for="form-stacked-text">Address</label>
         <div class="">
             <input class="uk-input  formw " id="form-stacked-text" type="text" placeholder="Some text..."/>
         </div>
@@ -242,11 +273,16 @@ const Home2 = () => {
 
 
 
-      <div class="uk-padding">
-        <label class="uk-form-label" for="form-stacked-text">Text</label>
+      <div class="">
+        <label class="uk-align-left flabels " for="form-stacked-text">Gender</label>
         <div class="">
             <input class="uk-input  formw " id="form-stacked-text" type="text" placeholder="Some text..."/>
         </div>
+    </div>
+
+    <div className='uk-align-end' >
+    <button style={{backgroundColor:"#02EF93" , borderRadius:"22px" }} className=" fbutton ">Next</button>
+
     </div>
 
 

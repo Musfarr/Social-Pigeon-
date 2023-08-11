@@ -12,8 +12,21 @@ const Footer = () => {
         <img src={logo} />
     </div>
 
-    <div style={{width:"351px" , marginTop:"44px" , fontFamily:"Lex" }} >
-        <h2 className='wt' >LOREM IPSUM STANDARD DUMMY TEXT</h2>
+    <div className='uk-flex' style={{  marginTop:"44px" , fontFamily:"Lex" }} >
+        <div className='' style={{width:"351px", paddingLeft:"200px" }}>
+        
+        <h2 className='wt '  >LOREM IPSUM STANDARD DUMMY TEXT</h2>
+        </div>
+        <div className='wt' >
+          <p>Home</p>
+          <p>For Creators</p>
+          <p>For Brands</p>
+        </div>
+
+        <div className='wt ' style={{paddingLeft:"50px"}} >
+        <p>IBRAHIM TRADE TOWER,<br /> #803, SHAHRAH-E-FAISAL, KARACHI.</p>
+        <p>For Creators</p>
+        </div>
     </div>
 
 </div>

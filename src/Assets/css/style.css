@@ -40,8 +40,12 @@ padding-top: 120px;
 
 .bfont{
     size: 22px;
-    color: black;
     font-weight: 400;
+    /* text-align: ; */
+font: normal normal normal 22px/31px Lexend Deca;
+letter-spacing: 0px;
+color: #000000;
+opacity: 1;
 }
 
 .card{
@@ -49,6 +53,10 @@ padding-top: 120px;
     width: 352px;
     
 
+}
+
+.crdimg{
+    border-radius: 20px;
 }
 
 .navbar{
@@ -68,7 +76,7 @@ padding-top: 120px;
 
 }
 .tabimg{
-    padding-left: 51px;
+    padding-left: 101px;
 }
 
 .video{
@@ -133,9 +141,7 @@ font: normal normal normal 16px/22px Lexend Deca;
 letter-spacing: 0px;
 color: #FFFFFF;
 opacity: 1;
-
-
-    margin-top: 10vh;
+margin-top: 10vh;
 }
 .b1{
     left: 139px;
@@ -167,12 +173,55 @@ color: #979797;
 opacity: 1;
     text-align: start;
     margin-top: 60px;
-    border: under;
-    border-bottom: 5px solid rgb(0, 0, 0); 
+    border: none;
+    border-bottom: 3px solid rgb(0, 0, 0); 
     outline: none; 
     padding: 5px; 
     font-size: larger;
     background-color: transparent; 
     width: 80%; 
   }
+
+  .wheading2{
+
+    width: 536px;
+height: 144px;
+/* UI Properties */
+text-align: left;
+font: normal normal bold 57px/68px Lexend Deca;
+letter-spacing: 0px;
+color: #FFFFFF;
+opacity: 1;
+  }
   
+
+.sociallogo{
+
+    /* padding-left: 107px; */
+    padding: 7%;
+}
+
+.text2{
+    width: 352px;
+    height: 87;
+
+}
+a, .uk-link {
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.whpd{
+
+
+    padding-right: 100vh;
+}
+
+
+.formgrid{
+
+    height:"483px" ;
+    width:"904px"; 
+    border-radius:"20px";
+}
