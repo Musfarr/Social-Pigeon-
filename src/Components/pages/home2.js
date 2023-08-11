@@ -51,8 +51,8 @@ const Home2 = () => {
 </div>
 </div>
 
-<ul class="uk-subnav uk-subnav-pill uk-flex-center" uk-switcher="animation: uk-animation-slide-left-medium, uk-animation-slide-right-medium">
-    <li><a className='tabbutton' > Item </a> </li>
+<ul class="uk-subnav uk-subnav-pill uk-flex-center tabbuttons" uk-switcher="animation: uk-animation-slide-left-medium, uk-animation-slide-right-medium">
+    <li><a  > Item </a> </li>
     <li><a >Item</a></li>
     <li><a >Item</a></li>
     </ul>
