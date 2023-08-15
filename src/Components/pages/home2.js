@@ -2,12 +2,14 @@ import React from 'react'
 import bg1 from "../../Assets/images/companies/bg1.png"
 import bg2 from "../../Assets/images/greenbg.svg"
 import bg3 from "../../Assets/images/wide.png"
+
 import bg4 from "../../Assets/images/green.svg"
 import tabimg from "../../Assets/images/tabimg.png"
 import Footer from '../common/footer'
 import Header from '../common/header'
 import c1 from "../../Assets/images/companies/c1.png"
 import c2 from "../../Assets/images/companies/c2.png"
+
 
 const Home2 = () => {
   return (

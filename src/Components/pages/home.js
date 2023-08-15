@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react';
 import bg1 from "../../Assets/images/bg1.png"
+import ar from "../../Assets/images/arrow.svg"
 import bg2 from "../../Assets/images/greenbg.svg"
 import bg from "../../Assets/images/wide.png"
 import bg4 from "../../Assets/images/green.svg"
@@ -11,6 +12,7 @@ import Footer from '../common/footer'
 import Header from '../common/header'
 import tabimg from "../../Assets/images/tabimg.png"
 import cimg from "../../Assets/images/collaborate.svg"
+
 
 
 
@@ -102,12 +104,10 @@ const Home = () => {
       
     <h1 className='heading sec2heading'>Transforming the way to connect</h1>
     </div>
-
-
     <div><ul class="uk-subnav uk-subnav-pill uk-flex-center tabbuttons" uk-switcher="animation: uk-animation-slide-left-medium, uk-animation-slide-right-medium">
-    <li><a className='tabbutton' > Item </a> </li>
-    <li><a >Item</a></li>
-    <li><a >Item</a></li>
+    <li style={{paddingLeft:"0px"}} ><a className=''  > collaborate </a> </li>
+    <li><a > Showup </a></li>
+    <li><a > Earn </a></li>
     </ul>
     
 
@@ -265,8 +265,8 @@ const Home = () => {
 
 <ul class="uk-subnav   uk-flex-center formtabbutton" uk-switcher="connect:.formtab">
 
-<li className='underline-input2' ><a   style={{fontSize:"24px"  }} > 1.Personal Info </a> </li>
-<li className='underline-input2' ><a style={{fontSize:"24px"}} > 2.Social Info </a></li>
+<li className='underline-input2 ' ><a   style={{fontSize:"24px"  }} > 1.Personal Info </a> </li>
+<li className='underline-input2 ' ><a style={{fontSize:"24px"}} > 2.Social Info </a></li>
 </ul>
 
   </div>
@@ -407,6 +407,7 @@ const Home = () => {
 
 
 <input class="  underline-input" id="form-stacked-text" type="text" placeholder="Enter your phone Number"/>
+<button className=' uk-navbar submitbttn uk-container'> <img src={ar}  /> </button>
 </div>
 
 

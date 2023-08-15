@@ -8,17 +8,17 @@ const Header = () => {
     <div>
 
 <nav class="uk-navbar-container  " style={{backgroundColor:"transparent"}} >
-    <div class="uk-container navbar">
+    <div class="uk-container navbar ">
         <div uk-navbar>
 
             <div class="uk-navbar-left" >
             <Link to={"/"}>
             <div>
             <img src={logo} />
-            </div>
+            </div >  
             </Link>
 
-                <ul class="uk-navbar-nav " style={{marginLeft:"48%" }} >
+             <ul class="uk-navbar-nav  " style={{marginLeft:"48%" }} >
                     <li>
                         <a href="#" className='wt'  >
                         <Link to={"/creator"}>

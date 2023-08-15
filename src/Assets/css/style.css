@@ -75,8 +75,8 @@ opacity: 1;
 
 .tabbuttons{
     background-color: #E4E4E499;
-    width: 408px;
-    margin-left: 515px;
+    width: 500px;
+    margin-left: 500px;
     justify-content: space-around;
     border-radius: 20px;
 
@@ -97,7 +97,7 @@ opacity: 1;
 }
 
 .uk-subnav-pill > .uk-active > a {
-    color: #fff;
+    color: black  ;
     border-radius: 18px;
     background-color: #02EF93;
 
@@ -132,9 +132,9 @@ opacity: 1;
 
 .underline-input {
     border: none;
-    border-bottom: 8px solid black; /* You can adjust the color and thickness as needed */
-    outline: none; /* Remove the default focus outline */
-    padding: 5px; /* Add some padding for better spacing */
+    border-bottom: 8px solid black; 
+    outline: none; 
+    padding: 5px; 
   }
   
 .tabtext2{
@@ -185,14 +185,13 @@ opacity: 1;
     padding: 5px; 
     font-size: larger;
     background-color: transparent; 
-    width: 80%; 
+    width: 60%; 
   }
 
 .underline-input2 {
     letter-spacing: -0.27px;
     color: #979797;
-    opacity: 1;
-    
+    opacity: 1;    
     border: none;
     border-bottom: 3px solid  #979797; 
     outline: none; 
@@ -260,6 +259,13 @@ a, .uk-link {
 
 }
 
-.uk-subnav > .uk-active > a {
-    color: #02EF93;
+.submitbttn{
+    background-color: transparent;
+    margin-top: -30px;
+    margin-right: 35vh;
+    border: none;
+
+    color: #000000;
 }
+
+
