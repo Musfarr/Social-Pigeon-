@@ -191,11 +191,12 @@ const Creator = () => {
     
     <div className=''  style={{height:"567px" ,backgroundColor:""}} >
 
-      <div className='uk-padding '  style={{height:"40px" , marginLeft:"-250px" }} >
+      <div className='uk-padding '  style={{height:"40px" }} >
 
-      <ul class="uk-subnav uk-subnav-pill uk-flex-center tabbuttons" uk-switcher="animation: uk-animation-slide-left-medium, uk-animation-slide-right-medium">
-    <li><a className='' > Personal Info </a> </li>
-    <li><a > Social Info </a></li>
+    <ul class="uk-subnav   uk-flex-center formtabbutton" uk-switcher="animation: uk-animation-slide-left-medium, uk-animation-slide-right-medium">
+
+    <li className='underline-input2' ><a   style={{fontSize:"24px"  }} > 1.Personal Info </a> </li>
+    <li className='underline-input2' ><a style={{fontSize:"24px"}} > 2.Social Info </a></li>
     </ul>
 
       </div>

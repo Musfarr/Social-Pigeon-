@@ -13,11 +13,12 @@ const Footer = () => {
     </div>
 
     <div className='uk-flex' style={{  marginTop:"44px" , fontFamily:"Lex" }} >
-        <div className='' style={{width:"351px", paddingLeft:"200px" }}>
+        <div className='' style={{width:"351px",}}>
         
         <h2 className='wt '  >LOREM IPSUM STANDARD DUMMY TEXT</h2>
         </div>
-        <div className='wt' >
+
+        <div className='wt' style={{paddingLeft:"140px"}}  >
           <p>Home</p>
           <p>For Creators</p>
           <p>For Brands</p>
@@ -28,6 +29,15 @@ const Footer = () => {
         <p>For Creators</p>
         </div>
     </div>
+
+  <div className='  uk-flex uk-flex-between ' style={{paddingTop:"50px"}} >
+    
+    <div><p>© 2022 Social Pigeon. All rights reserved.</p></div>
+    <div><p>Terms and Conditions</p></div>    
+    <div><p>Privacy Policy</p></div>
+    <div><p>apps@socialpigoen.com</p></div>
+    
+  </div>    
 
 </div>
 </div>

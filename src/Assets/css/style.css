@@ -38,6 +38,12 @@ padding-top: 120px;
 }
 
 
+.header1{
+    background-color: transparent;
+
+}
+
+
 .bfont{
     size: 22px;
     font-weight: 400;
@@ -182,6 +188,21 @@ opacity: 1;
     width: 80%; 
   }
 
+.underline-input2 {
+    letter-spacing: -0.27px;
+    color: #979797;
+    opacity: 1;
+    
+    border: none;
+    border-bottom: 3px solid  #979797; 
+    outline: none; 
+    padding: 5px; 
+    font-size: larger;
+    background-color: transparent; 
+    width: 44%; 
+    margin-inline-end: 20px;
+  }
+
   .wheading2{
 
     width: 536px;
@@ -224,4 +245,21 @@ a, .uk-link {
     height:"483px" ;
     width:"904px"; 
     border-radius:"20px";
+}
+
+.formtabbutton{
+
+    
+    background-color: transparent;
+    text-align: left;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+    font-family: Lexend Deca;
+    font-size: 24px;
+
+}
+
+.uk-subnav > .uk-active > a {
+    color: #02EF93;
 }

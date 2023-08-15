@@ -183,20 +183,6 @@ const Home = () => {
     <h1 className='heading' >Our clients</h1>
     </div>  
 
-    <div className='uk-flex uk-flex-between uk-container' >      
-      
-      <img src={L1} />
-      <img src={L2} />
-      <img src={L1} />
-      <img src={L2} />
-      <img src={L1} />
-      <img src={L2} />
-      <img src={L1} />
-        <img src={L2} />
-      </div>
-
-
-      
 
 
     <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slider="">
@@ -204,43 +190,33 @@ const Home = () => {
     <ul class="uk-slider-items uk-child-width-1-2 uk-child-width-1-3@s uk-child-width-1-4@m">
         <li>
         <img src={L1} />
-            <div class="uk-position-center uk-panel"><h1>1</h1></div>
         </li>
         <li>
         <img src={L2} />
-            <div class="uk-position-center uk-panel"><h1>2</h1></div>
         </li>
         <li>
         <img src={L1} />
-            <div class="uk-position-center uk-panel"><h1>3</h1></div>
         </li>
         <li>
-        <img src={L1} />
-            <div class="uk-position-center uk-panel"><h1>4</h1></div>
+        <img src={L2} />
         </li>
         <li>
-        <img src={L1} />
-            <div class="uk-position-center uk-panel"><h1>5</h1></div>
+        <img src={L2} />
         </li>
         <li>
-                      <img src={L1} />
-            <div class="uk-position-center uk-panel"><h1>6</h1></div>
+         <img src={L2} />
         </li>
         <li>
-                      <img src={L1} />
-            <div class="uk-position-center uk-panel"><h1>7</h1></div>
+         <img src={L1} />
         </li>
         <li>
                       <img src={L1} />
-            <div class="uk-position-center uk-panel"><h1>8</h1></div>
+        </li>
+        <li>
+                      <img src={L2} />
         </li>
         <li>
                       <img src={L1} />
-            <div class="uk-position-center uk-panel"><h1>9</h1></div>
-        </li>
-        <li>
-                      <img src={L1} />
-            <div class="uk-position-center uk-panel"><h1>10</h1></div>
         </li>
     </ul>
 
@@ -284,16 +260,16 @@ const Home = () => {
   <p className='bfont'>We help you get wings</p>
 
     
-    <div className=''  style={{height:"567px" ,backgroundColor:""}} >
+<div className=''  style={{height:"567px" ,backgroundColor:""}} >
+<div className='uk-padding '  style={{height:"40px" }} >
 
-      <div className='uk-padding '  style={{height:"40px" , marginLeft:"-250px" }} >
+<ul class="uk-subnav   uk-flex-center formtabbutton" uk-switcher="connect:.formtab">
 
-      <ul class="uk-subnav uk-subnav-pill uk-flex-center tabbuttons" uk-switcher="connect:.formtab">
-    <li><a className='' > Personal Info </a> </li>
-    <li><a > Social Info </a></li>
-    </ul>
+<li className='underline-input2' ><a   style={{fontSize:"24px"  }} > 1.Personal Info </a> </li>
+<li className='underline-input2' ><a style={{fontSize:"24px"}} > 2.Social Info </a></li>
+</ul>
 
-      </div>
+  </div>
 
 
 

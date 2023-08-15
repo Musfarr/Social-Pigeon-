@@ -121,8 +121,10 @@ const Home2 = () => {
   <p className=' uk-container   heading' >Perks Offered to Creators</p>
   </div>
 
-  <div className='uk-grid uk-container uk-padding    ' > 
-
+  <div className=' uk-container uk-padding    ' > 
+  
+  
+    <div className='uk-grid' uk-grid="" >
   <div className='card ' >
         <div class="crdimg  uk-card uk-card-default">
             <div class="uk-card-media-top">
@@ -180,6 +182,7 @@ const Home2 = () => {
             </div>
         </div>
     </div>
+    </div>
 
 
   </div>
@@ -212,84 +215,131 @@ const Home2 = () => {
     
     <div className=''  style={{height:"567px" ,backgroundColor:""}} >
 
-      <div className='uk-padding '  style={{height:"40px" , marginLeft:"-250px" }} >
+    <div className='uk-padding '  style={{height:"40px" }} >
 
-      <ul class="uk-subnav uk-subnav-pill uk-flex-center tabbuttons" uk-switcher="animation: uk-animation-slide-left-medium, uk-animation-slide-right-medium">
-    <li><a className='' > Personal Info </a> </li>
-    <li><a > Social Info </a></li>
-    </ul>
+<ul class="uk-subnav   uk-flex-center formtabbutton" uk-switcher="connect:.formtab">
 
-      </div>
-
-
-
-    <div className='uk-padding  uk-box-shadow-xlarge ' style={{height:"483px" , width:"904px" ,borderRadius:"20px" }} >
-
-
-
-<ul class="uk-switcher uk-margin">
-<li></li>
-
-<li></li>
+<li className='underline-input2' ><a   style={{fontSize:"24px"  }} > 1.Personal Info </a> </li>
+<li className='underline-input2' ><a style={{fontSize:"24px"}} > 2.Social Info </a></li>
 </ul>
 
-
-
-      <div className='uk-grid   '>
-
-      <div class="">
-        <label class="uk-align-left flabels " for="form-stacked-text">Name</label>
-        <div class="">
-            <input class="uk-input formw  " id="form-stacked-text" type="text" placeholder="First Name "/>
-        </div>
-    </div>
-
-      <div class="">
-        
-        <label class="uk-align-left flabels " for="form-stacked-text"> Name  </label>
-        <div class="">
-            <input class="uk-input  formw " id="form-stacked-text" type="text" placeholder="Last Name"/>
-        </div>
-    </div>
-      <div class="">
-        <label class="uk-align-left flabels " for="form-stacked-text">Email</label>
-        <div class="">
-            <input class="uk-input  formw " id="form-stacked-text" type="text" placeholder="Some text..."/>
-        </div>
-    </div>
-      <div class="">
-        <label class="uk-align-left flabels " for="form-stacked-text">Phone number</label>
-        <div class="">
-            <input class="uk-input  formw " id="form-stacked-text" type="text" placeholder="Some text..."/>
-        </div>
-
-    </div>
-      <div class="">
-      <label class="uk-align-left flabels " for="form-stacked-text">Address</label>
-        <div class="">
-            <input class="uk-input  formw " id="form-stacked-text" type="text" placeholder="Some text..."/>
-        </div>
-    </div>
+  </div>
 
 
 
-      <div class="">
-        <label class="uk-align-left flabels " for="form-stacked-text">Gender</label>
-        <div class="">
-            <input class="uk-input  formw " id="form-stacked-text" type="text" placeholder="Some text..."/>
-        </div>
-    </div>
+<div className='uk-padding  uk-box-shadow-xlarge ' style={{height:"483px" , width:"904px" ,borderRadius:"20px" }} >
 
-    <div className='uk-align-end' >
-    <button style={{backgroundColor:"#02EF93" , borderRadius:"22px" }} className=" fbutton ">Next</button>
+<ul class="uk-switcher uk-margin formtab">
+<li> <div className='uk-grid   '>
 
-    </div>
+<div class="">
+  <label class="uk-align-left flabels " for="form-stacked-text">Name</label>
+  <div class="">
+      <input class="uk-input formw  " id="form-stacked-text" type="text" placeholder="First Name "/>
+  </div>
+</div>
 
-
+<div class="">
   
+  <label class="uk-align-left flabels " for="form-stacked-text"> Name  </label>
+  <div class="">
+      <input class="uk-input  formw " id="form-stacked-text" type="text" placeholder="Last Name"/>
+  </div>
+</div>
+<div class="">
+  <label class="uk-align-left flabels " for="form-stacked-text">Email</label>
+  <div class="">
+      <input class="uk-input  formw " id="form-stacked-text" type="text" placeholder="Some text..."/>
+  </div>
+</div>
+<div class="">
+  <label class="uk-align-left flabels " for="form-stacked-text">Phone number</label>
+  <div class="">
+      <input class="uk-input  formw " id="form-stacked-text" type="text" placeholder="Some text..."/>
+  </div>
 
-      </div>
+</div>
+<div class="">
+<label class="uk-align-left flabels " for="form-stacked-text">Address</label>
+  <div class="">
+      <input class="uk-input  formw " id="form-stacked-text" type="text" placeholder="Some text..."/>
+  </div>
+</div>
 
+
+
+<div class="">
+  <label class="uk-align-left flabels " for="form-stacked-text">Gender</label>
+  <div class="">
+      <input class="uk-input  formw " id="form-stacked-text" type="text" placeholder="Some text..."/>
+  </div>
+</div>
+
+<div className='uk-align-end' >
+<button style={{backgroundColor:"#02EF93" , borderRadius:"22px" }} className=" fbutton ">Next</button>
+
+</div>
+
+
+
+
+</div> </li>
+
+<li> <div className='uk-grid   '>
+
+<div class="">
+  <label class="uk-align-left flabels " for="form-stacked-text">Name</label>
+  <div class="">
+      <input class="uk-input formw  " id="form-stacked-text" type="text" placeholder="First Name "/>
+  </div>
+</div>
+
+<div class="">
+  
+  <label class="uk-align-left flabels " for="form-stacked-text"> cddcName  </label>
+  <div class="">
+      <input class="uk-input  formw " id="form-stacked-text" type="text" placeholder="Last Name"/>
+  </div>
+</div>
+<div class="">
+  <label class="uk-align-left flabels " for="form-stacked-text">Email</label>
+  <div class="">
+      <input class="uk-input  formw " id="form-stacked-text" type="text" placeholder="Some text..."/>
+  </div>
+</div>
+<div class="">
+  <label class="uk-align-left flabels " for="form-stacked-text">Phone number</label>
+  <div class="">
+      <input class="uk-input  formw " id="form-stacked-text" type="text" placeholder="Some text..."/>
+  </div>
+
+</div>
+<div class="">
+<label class="uk-align-left flabels " for="form-stacked-text">Address</label>
+  <div class="">
+      <input class="uk-input  formw " id="form-stacked-text" type="text" placeholder="Some text..."/>
+  </div>
+</div>
+
+
+
+<div class="">
+  <label class="uk-align-left flabels " for="form-stacked-text">Gender</label>
+  <div class="">
+      <input class="uk-input  formw " id="form-stacked-text" type="text" placeholder="Some text..."/>
+  </div>
+</div>
+
+<div className='uk-align-end' >
+<button style={{backgroundColor:"#02EF93" , borderRadius:"22px" }} className=" fbutton ">Next</button>
+
+</div>
+
+
+
+
+</div> </li>
+</ul>
     </div>
     </div>
 
