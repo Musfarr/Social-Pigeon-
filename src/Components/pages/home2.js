@@ -2,7 +2,6 @@ import React from 'react'
 import bg1 from "../../Assets/images/companies/bg1.png"
 import bg2 from "../../Assets/images/greenbg.svg"
 import bg3 from "../../Assets/images/wide.png"
-
 import bg4 from "../../Assets/images/green.svg"
 import tabimg from "../../Assets/images/tabimg.png"
 import Footer from '../common/footer'
@@ -53,10 +52,10 @@ const Home2 = () => {
 </div>
 </div>
 
-<ul class="uk-subnav uk-subnav-pill uk-flex-center tabbuttons" uk-switcher="animation: uk-animation-slide-left-medium, uk-animation-slide-right-medium">
-    <li><a  > Item </a> </li>
-    <li><a >Item</a></li>
-    <li><a >Item</a></li>
+<ul class="uk-subnav uk-subnav-pill uk-flex-center tabbuttons " uk-switcher="animation: uk-animation-slide-left-medium, uk-animation-slide-right-medium">
+    <li className='tbbtn'><a>Food </a> </li>
+    <li className='tbbtn'><a>Beauty</a></li>
+    <li className='tbbtn'  ><a > Lifestyle </a></li>
     </ul>
     
 
@@ -221,7 +220,7 @@ const Home2 = () => {
 
 <ul class="uk-subnav   uk-flex-center formtabbutton" uk-switcher="connect:.formtab">
 
-<li className='underline-input2' ><a   style={{fontSize:"24px"  }} > 1.Personal Info </a> </li>
+<li className='underline-input2' ><a style={{fontSize:"24px"  }} > 1.Personal Info </a> </li>
 <li className='underline-input2' ><a style={{fontSize:"24px"}} > 2.Social Info </a></li>
 </ul>
 

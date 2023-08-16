@@ -31,8 +31,8 @@ const Home = () => {
     <Header/>
     
     <div className='uk-container uk-padding-large '>
-    <div style={{width:"427px"}}>
-    <h1 style={{color:"#02F195" , fontWeight:"700" , fontSize:"57px" ,fontFamily:"Lexend Deca" }} >  Welcome <br></br> to the world of Social Pigeons </h1>
+    <div   style={{width:"427px"}}>
+    <h1 className='gh1'  style={{color:"#02F195" , fontWeight:"700" , fontSize:"57px" ,fontFamily:"Lexend Deca" }} >  Welcome <br></br> to the world of Social Pigeons </h1>
     </div>
     <div style={{width:"444px"}} >
         <p className='wt' style={{fontSize:"24px" , fontWeight:"400"}} >Navigate your digital world with exceptional influencers and social media marketing.</p>
@@ -67,17 +67,7 @@ const Home = () => {
       muted>
 
       </video>
-
-    </div> 
-
-
-          
-        
-
-
-
-        
-    
+    </div>     
 </section>
 
 
@@ -176,7 +166,6 @@ const Home = () => {
 
 
 
-\
 <section style={{height:"300px" , backgroundColor:"#F5F5F5" }} >
 
     <div className='uk-flex uk-flex-center uk-flex-middle uk-padding ' >
@@ -210,7 +199,7 @@ const Home = () => {
          <img src={L1} />
         </li>
         <li>
-                      <img src={L1} />
+         <img src={L1} />
         </li>
         <li>
                       <img src={L2} />
@@ -269,7 +258,7 @@ const Home = () => {
 <li className='underline-input2 ' ><a style={{fontSize:"24px"}} > 2.Social Info </a></li>
 </ul>
 
-  </div>
+</div>
 
 
 
@@ -369,7 +358,6 @@ const Home = () => {
 </div>
 
 
-
 <div class="">
   <label class="uk-align-left flabels " for="form-stacked-text">Gender</label>
   <div class="">
@@ -416,7 +404,6 @@ const Home = () => {
 </section>
 
 <Footer/>
-
 
     </div>
   )

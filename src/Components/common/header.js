@@ -7,7 +7,7 @@ const Header = () => {
   return (
     <div>
 
-<nav class="uk-navbar-container  " style={{backgroundColor:"transparent"}} >
+<nav class="uk-navbar-container   " style={{backgroundColor:"transparent"}} >
     <div class="uk-container navbar ">
         <div uk-navbar>
 

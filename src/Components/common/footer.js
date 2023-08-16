@@ -24,17 +24,17 @@ const Footer = () => {
           <p>For Brands</p>
         </div>
 
-        <div className='wt ' style={{paddingLeft:"50px"}} >
+        <div className='wt ' style={{paddingLeft:"189px"}} >
         <p>IBRAHIM TRADE TOWER,<br /> #803, SHAHRAH-E-FAISAL, KARACHI.</p>
         <p>For Creators</p>
         </div>
     </div>
 
-  <div className='  uk-flex uk-flex-between ' style={{paddingTop:"50px"}} >
+  <div className=' wt uk-flex uk-flex-between ' style={{paddingTop:"50px"}} >
     
-    <div><p>© 2022 Social Pigeon. All rights reserved.</p></div>
-    <div><p>Terms and Conditions</p></div>    
-    <div><p>Privacy Policy</p></div>
+    <div  ><p>© 2022 Social Pigeon. All rights reserved.</p></div>
+    <div style={{paddingLeft:"45px"}} ><p>Terms and Conditions</p></div>    
+    <div style={{paddingRight:"80px"}}  ><p>Privacy Policy</p></div>
     <div><p>apps@socialpigoen.com</p></div>
     
   </div>    
