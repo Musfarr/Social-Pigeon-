@@ -1,39 +1,60 @@
-import React, { useEffect } from 'react';
-import bg1 from "../../Assets/images/bg1.png"
-import ar from "../../Assets/images/arrow.svg"
-import bg2 from "../../Assets/images/greenbg.svg"
-import bg from "../../Assets/images/wide.png"
-import bg4 from "../../Assets/images/green.svg"
-import grp1 from "../../Assets/images/grp1.png"
-import L1 from "../../Assets/images/pso.png"
-import L2 from "../../Assets/images/L2.png"
-import vifile from "../../Assets/images/rotating.webm"
+import React, { useState,useEffect, useRef } from 'react';
+// import bg1 from "../../Assets/images/bg1.png"
+import bg1 from "../../Assets/images/vv.mp4"
+
+import bg2 from "../../Assets/images/circle.jpg"
 import Footer from '../common/footer'
 import Header from '../common/header'
-import tabimg from "../../Assets/images/tabimg.png"
-import cimg from "../../Assets/images/collaborate.svg"
+
+
+
+const Counter = ({ title, value, suffix }) => {
+    const [count, setCount] = useState(0);
+  
+    useEffect(() => {
+      let interval;
+      if (count < value) {
+        interval = setInterval(() => {
+          setCount(prevCount => prevCount + 1);
+        }, 70); // You can adjust the duration as needed
+      }
+      return () => {
+        clearInterval(interval);
+      };
+    }, [count, value]);
+  
+    return (
+        <div className="counter ">
+        <span className="neon uk-heading-xlarge uk-text-primary">{count}</span>
+        {suffix && <span className="counter-suffix">{suffix}</span>}
+        <div className="counter-title">{title}</div>
+      </div>
+    );
+  };
 
 
 
 
 
 const Home = () => {
-  
+
+    
 
   return (
-<div  className='' >
+<div className='bgnn uk-background-cover uk-background-fixed uk-background-center-center ' data-src = "https://images.unsplash.com/photo-1490822180406-880c226c150b?fit=crop&w=650&h=433&q=80" uk-img = "loading : eager"  >
 
 
-
-<section  >
-
-<div class="uk-height-large  uk-background-cover uk-light   " style={{height:"768px"}}  data-src={bg1}  uk-img="loading: eager">
-    <Header/>
+ <Header/>
+ <div class="uk-position-relative  " style={{height:"704px" , marginBottom:"30vh"}} >
     
-    <div className='uk-container uk-padding-large '>
-    <div   style={{width:"427px"}}>
-    <h1 className='gh1'  style={{color:"#02F195" , fontWeight:"700" , fontSize:"57px" ,fontFamily:"Lexend Deca" }} >  Welcome <br></br> to the world of Social Pigeons </h1>
+    <video class="uk-background-cover uk-position-absolute  " src={bg1} loop muted playsinline autoplay uk-video="autoplay: inview"></video>
+
+    
+    <div className="uk-position-cover  ">
+     <div >   
+    
     </div>
+<<<<<<< HEAD
     <div style={{width:"444px"}} >
         <p className='wt' style={{fontSize:"24px" , fontWeight:"400"}} >Navigate your digital world with exceptional influencers and social media marketing.</p>
     </div>
@@ -54,108 +75,88 @@ const Home = () => {
 
             <div style={{width:"620px" }}>
             <h5 className='bt'  style={{fontWeight:"400" , fontSize:"22px"}} > A platform that helps influencers and brands stay digitally connected to smartly market the products and services. </h5>
+=======
+        <div className="uk-container uk-padding-large">
+            <div className='h1bg' style={{ width: "427px" }}>
+            <h1 className='hanim1' data-heading="i">Eifers</h1>
+>>>>>>> bec7e18735b4e43873709f53af1864e312e96b8f
             </div>
 
-        </div>
-        </div>
-    <div className='video uk-container' >
-      <video 
-      src= {vifile}
-      autoPlay
-      loop
-      muted>
+            <div>
+            <p className='shine' >Navigating Your Cyber World with Unparalleled Security Expertise</p>
+            </div>
 
-      </video>
-    </div>     
-</section>
+            {/* <div style={{ width: "444px" }}>
+                <p className="greytext animated-text2" style={{ fontSize: "24px", fontWeight: "400" }}>Navigating Your Cyber World with Unparalleled Security Expertise.</p>
+            </div> */}
+        </div>
+    </div>
+</div>
 
 
  
-<div class="uk-flex uk-flex-center uk-flex-middle uk-background-cover uk-light" style={{height:"766px"}}  data-src={bg2}  uk-img="loading: eager">
-
-
-<div className='' style={{width:"444px"}} >
-<p className='heading'  >Build digital presence, choose social pigeons</p> 
-  <p className='bfont'>Our primary goal is to build a unique community of influencers that collaborates with brands and execute result-oriented campaigns.</p>
-</div>
 
 
 
-<div  >
-  <img src={grp1}  />
+
+<div className='sec2' style={{marginTop:"2vh" , backgroundColor:"transparent"  }}  >
+    <div className='uk-flex uk-flex-center uk-flex-middle uk-text-center sec2heading ' >
+        <div className='' >
+            
+
 </div>
 </div>
 
-
-<section style={{height:"893px"}} >
-
-    <div className='uk-flex uk-flex-center uk-flex-middle uk-padding' >
-      
-    <h1 className='heading sec2heading'>Transforming the way to connect</h1>
-    </div>
-    <div><ul class="uk-subnav uk-subnav-pill uk-flex-center tabbuttons" uk-switcher="animation: uk-animation-slide-left-medium, uk-animation-slide-right-medium">
-    <li style={{paddingLeft:"0px"}} ><a className=''  > collaborate </a> </li>
-    <li><a > Showup </a></li>
-    <li><a > Earn </a></li>
-    </ul>
-    
-
-
-
+<ul class="uk-subnav uk-subnav-pill uk-flex-center tabbuttons " uk-switcher="animation: uk-animation-slide-left-medium, uk-animation-slide-right-medium">
+    <li className='tbbtn'><a>Threat Assesment </a> </li>
+    <li className='tbbtn'><a>Pen Testing</a></li>
+    <li className='tbbtn'  ><a > Risk Mitigation </a></li>
+    </ul>    
 <ul class="uk-switcher uk-margin">
 <li><div className='uk-container uk-flex uk-padding ' >
+        <div>
+          <p className='heading'>Threat Assessment</p>
 
-        <div className='tabtext2' >
-          <img src={cimg} />
-
-
-
-
-          <p className='heading'>Collaborate</p>
-
-          <div className='text1 bfont' >
-          <p>With brands to influence creatively.</p>
+          <div className='text1 ' >
+          <p>Our experienced team of security analysts will identify potential security threats to your company and provide you with a comprehensive report outlining areas of concern.</p>
           </div>
         </div>
         <div className='' >
-          <img className='tabimg' src={tabimg}  />
+          <img className='tabimg' src={bg2}  />
         </div>
       </div></li>
 
 
     <li><div className='uk-container uk-flex uk-padding ' >
-        <div className='tabtext2' >
-        <img src={cimg} />
+        <div>
+          <p className='heading'>Penetration Testing</p>
 
-          <p className='heading'>Showup</p>
-
-          <div className='text1 bfont' >
-          <p>With brands to influence creatively.</p>
+          <div className='text1 ' >
+          <p>Identify vulnerabilities in your organization’s cybersecurity defenses from a hacker’s perspective. Our team of experts will simulate a cyber attack to identify potential risks and provide you with recommendations to address them.</p>
           </div>
         </div>
         <div className='' >
-          <img className='tabimg' src={tabimg}  />
+          <img className='tabimg' src={bg2}  />
         </div>
       </div></li>
 
 
    <li><div className='uk-container uk-flex uk-padding ' >
-        <div className='tabtext2' >
-        <img src={cimg} />
+        <div>
+          <p className='heading'>Risk Mitigation</p>
 
-          <p className='heading'>Earn</p>
-
-          <div className='text1 bfont' >
-          <p>With brands to influence creatively.</p>
+          <div className='text1 ' >
+          <p>Our team of experts will work with your organization to address any vulnerabilities identified through our threat assessment and penetration testing services. We will provide you with a comprehensive plan to mitigate risks and protect your sensitive information.</p>
           </div>
         </div>
         <div className='' >
-          <img className='tabimg' src={tabimg}  />
+          <img className='tabimg' src={bg2}  />
         </div>
       </div></li>
 </ul>
 </div>
 
+<<<<<<< HEAD
 
 
 
@@ -219,191 +220,70 @@ const Home = () => {
 
 
 
+=======
+>>>>>>> bec7e18735b4e43873709f53af1864e312e96b8f
 <section>
-<div class="uk-flex uk-background-cover " style={{height:"500px"}}  data-src={bg}  uk-img="loading: eager"  >
-
-  <div className='uk-container uk-align-right '>
-    <p className='wheading' > Take your vision across <br /> the world, work with us </p>
-    <div>
-      <p className='wt UH  '>We are cooing with excitement and can't wait to take <br />your vision across the world.</p>
-    </div>
-  <div style={{paddingTop:"20px"}} >
-  <button class="uk-button uk-button-primary b1 ">JOIN</button>
-  <button class="uk-button uk-button-primary b2 ">JOIN</button>
-  </div>
-  </div>
-
+<div class="uk-section uk-section-large uk-background-secondary uk-light ">
+	<div class="uk-container">
+		<div class="uk-grid-large" data-uk-grid>
+			<div class="uk-width-1-3@m">
+				<h2 class="uk-heading-small uk-margin-large-bottom"></h2>
+        <Counter  value={150} suffix="+" />
+				<hr class="uk-margin-bottom uk-margin-medium-top tm-small-hr"/>
+				<h3 class="uk-margin-remove-bottom uk-text-uppercase uk-h5 uk-margin-small-top">Happy Clients</h3>
+			</div> 
+			<div class="uk-width-expand@m uk-flex uk-flex-column">
+				<h2 class="uk-margin-auto-top uk-margin-medium-bottom ">Get the very best of us by doing the best of you</h2>
+				<div class="uk-child-width-1-3" data-uk-grid>
+					<div>
+          <Counter  value={6} suffix="+" />
+						<hr class="uk-margin-bottom uk-margin-medium-top tm-small-hr"/>
+						<h3 class="uk-text-uppercase uk-h5 uk-margin-small-top">Years Experience</h3>
+					</div> 
+					<div>
+          <Counter  value={150} suffix="+" />
+						<hr class="uk-margin-bottom uk-margin-medium-top tm-small-hr"/>
+						<h3 class="uk-text-uppercase uk-h5 uk-margin-small-top">Project Done</h3>
+					</div>
+					<div>
+          <Counter  value={25} suffix="+" />
+						<hr class="uk-margin-bottom uk-margin-medium-top tm-small-hr"/>
+						<h3 class="uk-text-uppercase uk-h5 uk-margin-small-top">Award Winners</h3>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
 </div>
 
 </section>
 
-
-<section>
-<div class=" uk-flex uk-text-center  uk-flex-center    " style={{height:"1022px" ,backgroundColor:"#FFFFFF" }}    >
-
-  <div>
-
-  <p className='heading sec2heading'> Signup Here </p>
-  <p className='bfont'>We help you get wings</p>
-
-    
-<div className=''  style={{height:"567px" ,backgroundColor:""}} >
-<div className='uk-padding '  style={{height:"40px" }} >
-
-<ul class="uk-subnav   uk-flex-center formtabbutton" uk-switcher="connect:.formtab">
-
-<li className='underline-input2 ' ><a   style={{fontSize:"24px"  }} > 1.Personal Info </a> </li>
-<li className='underline-input2 ' ><a style={{fontSize:"24px"}} > 2.Social Info </a></li>
-</ul>
-
-</div>
-
-
-
-<div className='uk-padding  uk-box-shadow-xlarge ' style={{height:"483px" , width:"904px" ,borderRadius:"20px" }} >
-
-
-    <ul class="uk-switcher uk-margin formtab">
-<li><div className='uk-grid   '>
-
-<div class="">
-  <label class="uk-align-left flabels " for="form-stacked-text">Name</label>
-  <div class="">
-      <input class="uk-input formw  " id="form-stacked-text" type="text" placeholder="First Name "/>
-  </div>
-</div>
-
-<div class="">
-  
-  <label class="uk-align-left flabels " for="form-stacked-text"> Name  </label>
-  <div class="">
-      <input class="uk-input  formw " id="form-stacked-text" type="text" placeholder="Last Name"/>
-  </div>
-</div>
-<div class="">
-  <label class="uk-align-left flabels " for="form-stacked-text">Email</label>
-  <div class="">
-      <input class="uk-input  formw " id="form-stacked-text" type="text" placeholder="Some text..."/>
-  </div>
-</div>
-<div class="">
-  <label class="uk-align-left flabels " for="form-stacked-text">Phone number</label>
-  <div class="">
-      <input class="uk-input  formw " id="form-stacked-text" type="text" placeholder="Some text..."/>
-  </div>
-
-</div>
-<div class="">
-<label class="uk-align-left flabels " for="form-stacked-text">Address</label>
-  <div class="">
-      <input class="uk-input  formw " id="form-stacked-text" type="text" placeholder="Some text..."/>
-  </div>
-</div>
-
-
-
-<div class="">
-  <label class="uk-align-left flabels " for="form-stacked-text">Gender</label>
-  <div class="">
-      <input class="uk-input  formw " id="form-stacked-text" type="text" placeholder="Some text..."/>
-  </div>
-</div>
-
-<div className='uk-align-end' >
-<button style={{backgroundColor:"#02EF93" , borderRadius:"22px" }} className=" fbutton ">Next</button>
-
-</div>
-
-
-
-
-</div></li>
-
-<li><div className='uk-grid   '>
-
-<div class="">
-  <label class="uk-align-left flabels " for="form-stacked-text">Name###############</label>
-  <div class="">
-      <input class="uk-input formw  " id="form-stacked-text" type="text" placeholder="First Name "/>
-  </div>
-</div>
-
-<div class="">
-  
-  <label class="uk-align-left flabels " for="form-stacked-text"> Name######################  </label>
-  <div class="">
-      <input class="uk-input  formw " id="form-stacked-text" type="text" placeholder="Last Name"/>
-  </div>
-</div>
-<div class="">
-  <label class="uk-align-left flabels " for="form-stacked-text">Email</label>
-  <div class="">
-      <input class="uk-input  formw " id="form-stacked-text" type="text" placeholder="Some text..."/>
-  </div>
-</div>
-<div class="">
-  <label class="uk-align-left flabels " for="form-stacked-text">Phone number</label>
-  <div class="">
-      <input class="uk-input  formw " id="form-stacked-text" type="text" placeholder="Some text..."/>
-  </div>
-
-</div>
-<div class="">
-<label class="uk-align-left flabels " for="form-stacked-text">Address</label>
-  <div class="">
-      <input class="uk-input  formw " id="form-stacked-text" type="text" placeholder="Some text..."/>
-  </div>
-</div>
-
-
-<div class="">
-  <label class="uk-align-left flabels " for="form-stacked-text">Gender</label>
-  <div class="">
-      <input class="uk-input  formw " id="form-stacked-text" type="text" placeholder="Some text..."/>
-  </div>
-</div>
-
-<div className='uk-align-end' >
-<button style={{backgroundColor:"#02EF93" , borderRadius:"22px" }} className=" fbutton ">Next</button>
-
-</div>
-
-
-
-
-</div></li>
-</ul>
-
-
+<div class="hbg3  uk-padding uk-flex uk-flex-center uk-flex-column uk-flex-middle uk-text-center uk-light uk-height-large ">
+            
+            <div>
+        <h1  uk-parallax="opacity: 0,1; y: -0,0; scale: 2,1; end: 50vh + 50%;">We’re ready to take on any Security question.</h1>          
+        </div>
+        <div>
+            <button className='fbutton' >Get in Touch</button>
+            </div>
 
     </div>
-    </div>
 
 
-  </div>
+
+
+
+
+
+
+
+    <Footer/>
+
+
+
+
+
 </div>
-</section>
-
-
-
-<section>
-<div class="uk-flex uk-flex-column  uk-flex-middle uk-padding uk-background-cover uk-light " style={{height:"300px"}}  data-src={bg4}  uk-img="loading: eager">
-  <p className='heading' >Subscribe to Newsletter</p>
-  <span uk-icon="icon: check"></span>
-
-
-<input class="  underline-input" id="form-stacked-text" type="text" placeholder="Enter your phone Number"/>
-<button className=' uk-navbar submitbttn uk-container'> <img src={ar}  /> </button>
-</div>
-
-
-
-
-</section>
-
-<Footer/>
-
-    </div>
   )
 }
 
