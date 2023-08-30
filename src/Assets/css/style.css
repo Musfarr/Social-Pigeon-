@@ -7,15 +7,6 @@
 
 }
 
-/* .gh1{
-    
-    color:"#02F195";
-    font-weight:"700";
-    font-size:"57px" ;
-    font-family:"Lexend Deca";
-} */
-
-
 
 .sec2heading{
     padding-top: 80px;
@@ -31,7 +22,7 @@
 .heading{
     font-weight: 700;
     font-size: 46px;
-    color: black;
+    color: white;
     line-height: 55px;
 }
 
@@ -65,36 +56,45 @@ opacity: 1;
 }
 
 .card{
-
-    width: 352px;
+    width: 50vh;
     
+}
+.neonbg{
+    /* background: linear-gradient(135deg, #222222, #333333, #444444, #555555); */
+    /* Create a wine red to black gradient */
+background: linear-gradient(to top, #470101, #000000);
+
 
 }
-
-.crdimg{
-    border-radius: 20px;
+.cardtext{
+    color: #CCCCCC;
 }
+
 
 .navbar{
-    padding-top: 32.9px;
+    padding-top: 9.9px;
 }
 
 .text1{
-    width: 317px;
+    width: 330px;
+    font-weight: 400;
+    font: normal normal normal 22px/31px Lexend Deca;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+
+
 }
 
 .tabbuttons{
     background-color: #E4E4E499;
-    width: 500px;
-    margin-left: 500px;
+    width: 900px;
+    margin-left: 254px;
     justify-content: space-around;
-    border-radius: 20px;
+    border-radius: 5px;
 
 }
-.tbbtn{
-    padding: 0px;
-    padding-left: 0;
-}
+
 .tabimg{
     padding-left: 101px;
 }
@@ -113,7 +113,7 @@ opacity: 1;
 .uk-subnav-pill > .uk-active > a {
     color: black  ;
     border-radius: 18px;
-    background-color: #02EF93;
+    background-color: white;
 
 }
 .uk-subnav-pill > * > :first-child {
@@ -132,17 +132,14 @@ opacity: 1;
 .fbutton{
 
     background-color:"#02EF93" ;
-    border-radius:"22px";
-    width: 85px;
+    border-radius:3px;
+    width: 20vh;
     height: 44px;
-    margin-top: 40px;
-    color:  black;
+    color: maroon  ;
     border-color: transparent;
-    font-weight: 500;
+    font-weight: 700;
     font-size: 16px;
-    margin-left: 110vh;
-
-
+    margin-right: 95vh;
 }
 
 .underline-input {
@@ -176,8 +173,6 @@ margin-right: 16px;
 }
 
 .b2{
-
-
 left: 339px;
 width: 141px;
 height: 44px;
@@ -215,8 +210,7 @@ opacity: 1;
     background-color: transparent; 
     width: 44%; 
     margin-inline-end: 20px;
-    
-  }  
+  }
 
   .wheading2{
 
@@ -275,20 +269,31 @@ a, .uk-link {
 
 }
 
-.submitbttn{
-    background-color: transparent;
-    margin-top: -30px;
-    margin-right: 35vh;
-    border: none;
 
-    color: #000000;
+
+
+.uk-subnav-pill > * > :first-child {
+    padding: 5px 10px;
+    background: transparent;
+    color: black;
+    font-weight: 500;
 }
 
 @media only screen and (max-width: 600px) {
     body {
+        font-size: smaller;
+        width: 100vh;
     }
 
-    
+    .tabbuttons{
+        width: 35vh;
+    }
+    .cntctform{
+
+    }
+    .foot{
+        margin-top: 50vh;
+    }
 
   }
 

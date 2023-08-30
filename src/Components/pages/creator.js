@@ -1,18 +1,8 @@
 import React from 'react'
-import bg1 from "../../Assets/images/creators/bg1.png"
-import fb1 from "../../Assets/images/creators/fb.svg"
-import fb2 from "../../Assets/images/creators/fb1.svg"
-import fb3 from "../../Assets/images/creators/fb2.svg"
-import fb4 from "../../Assets/images/creators/fb3.svg"
-import fb5 from "../../Assets/images/creators/fb4.svg"
-import fb6 from "../../Assets/images/creators/fb5.svg"
-import bg2 from "../../Assets/images/greenbg.svg"
-import bg3 from "../../Assets/images/creators/bg3.png"
-import bg4 from "../../Assets/images/green.svg"
-import c1 from "../../Assets/images/companies/c1.png"
-import c2 from "../../Assets/images/companies/c2.png"
-import Footer from '../common/footer'
 import Header from '../common/header'
+// import  from "../../Assets/images/companies/.png"
+// import  from "../../Assets/images/companies/.png"
+import Footer from '../common/footer'
 
 
 
@@ -22,10 +12,88 @@ import Header from '../common/header'
 const Creator = () => {
   return (
 <div  >
+<Header/>
+
+<div class="uk-position-relative uk-position-z-index-zero">
+    <div class="uk-background-cover uk-padding uk-flex uk-flex-center uk-flex-middle uk-text-center uk-light uk-height-medium uk-position-z-index-negative" data-src = "https://images.unsplash.com/photo-1490822180406-880c226c150b?fit=crop&w=650&h=433&q=80" uk-img = "loading : eager" uk-sticky="overflow-flip: true; end: 100%; offset: 80">
+    <div className='anid'>
+<p className='anip' >
+  
+  <span className='anis'>
+    Our Services
+  </span>
+  &mdash; Protective Security Solutions &mdash;
+</p>
+</div> 
+</div>
 
 
+    <div style={{height:"100vh"}} class=" uk-background-secondary uk-padding uk-flex uk-flex-center uk-flex-middle uk-text-center " >
+    <div className=' uk-container uk-padding    ' > 
+    <div className=' uk-grid' uk-grid="">
+  <div className='card uk-light  ' >
+        <div class="neonbg crdimg uk-card uk-card-default">
+            <div class="cardtext uk-card-body">
+                <h3 class=" wfont">Threat Assessment</h3>
+                <p >Our experienced team of security analysts will identify potential security threats to your company and provide you with a comprehensive report outlining areas of concern.</p>
+            </div>
+        </div>
+    </div>
 
-<section   >
+    <div className='card uk-light  ' >
+        <div class="neonbg crdimg uk-card uk-card-default">
+            <div class="cardtext uk-card-body">
+                <h3 class=" wfont">Penetration Testing</h3>
+                <p >Identify vulnerabilities in your organization’s cybersecurity defenses from a hacker’s perspective. Our team of experts will simulate a cyber attack to identify potential risks and provide you with recommendations to address them.</p>
+            </div>
+        </div>
+    </div>
+    <div className='card uk-light  ' >
+        <div class="neonbg crdimg uk-card uk-card-default">
+            <div class="cardtext uk-card-body">
+                <h3 class=" wfont">Risk Mitigation</h3>
+                <p >Our team of experts will work with your organization to address any vulnerabilities identified through our threat assessment and penetration testing services. We will provide you with a comprehensive plan to mitigate risks and protect your sensitive information.</p>
+            </div>
+        </div>
+    </div>
+
+    <div className='card uk-light  ' >
+        <div class="neonbg crdimg uk-card uk-card-default">
+            <div class="cardtext uk-card-body">
+                <h3 class=" wfont">Cybersecurity Training</h3>
+                <p >We offer comprehensive cybersecurity training for your employees to reduce the risk of human error and ensure that your organization is equipped to handle potential cyber threats.</p>
+            </div>
+        </div>
+    </div>
+    <div className='card uk-light  ' >
+        <div class="neonbg crdimg uk-card uk-card-default">
+            <div class="cardtext uk-card-body">
+                <h3 class=" wfont">Incident Response</h3>
+                <p >In the event of a cyber attack, our team of experts is available 24/7 to respond to the incident and minimize the impact on your organization. We will work with your team to address the issue and prevent it from happening again in the future.</p>
+            </div>
+        </div>
+    </div>
+
+    <div className='card uk-light  ' >
+        <div class="neonbg crdimg uk-card uk-card-default">
+            <div class="cardtext uk-card-body">
+                <h3 class=" wfont">Compliance Consulting</h3>
+                <p >We offer compliance consulting services to ensure that your organization is meeting the necessary regulatory requirements and industry standards for cybersecurity. Our team of experts will work with you to identify any gaps in your current compliance program and provide recommendations to address them.</p>
+            </div>
+        </div>
+    </div>
+    </div>
+  </div>
+</div>
+    
+    
+<div class="hbg3 uk-flex-column uk-background-cover uk-padding uk-flex uk-flex-center uk-flex-middle uk-text-center uk-light uk-height-large uk-position-z-index-negative" uk-sticky="position: bottom; overflow-flip: true; start: -100%; end: 0">
+        <h1  uk-parallax="opacity: 0,1; y: -0,0; scale: 2,1; end: 50vh + 50%;">Reach out to us anytime</h1> 
+        <button className='fbutton' style={{marginLeft:"55vh"}} >Get in Touch</button>
+
+    </div>
+</div>
+{/* <section   >
 
 <div class="uk-height-large  uk-background-cover   " style={{height:"768px"}}  data-src={bg1}  uk-img="loading: eager">
     <Header/>
@@ -55,7 +123,7 @@ const Creator = () => {
 
     <div className='uk-flex uk-flex-center uk-flex-middle uk-text-center  ' >
         <div className='uk-padding-large' >
-            <h1  className='sec2heading heading' > Dont Wait for Inspiration, Be One</h1>
+            <h1  className='seheading heading' > Dont Wait for Inspiration, Be One</h1>
 
             <div style={{width:"804px"}} >
             <h5 className='bfont' > Calling out Pakistani creators from all social media platforms. If you've got a mind fizzed with creativity and have a good number of followers, then join Social Pigeons. Let your talent earn you both money and fame. </h5>
@@ -63,7 +131,7 @@ const Creator = () => {
         </div>
 
 
-        <div className='  uk-grid-large     '  style={{width : "804px" , marginLeft:"10px" }} >
+        <div className='  uk-grid-large     '  style={{  marginLeft:"10px" }} >
 
         <img className='sociallogo' src={fb1}  />           
         <img className='sociallogo' src={fb2}  />           
@@ -84,11 +152,11 @@ const Creator = () => {
         
 
     </div>    
-</section>
+</section> */}
 
 
  
-<div class="     uk-flex-center  uk-background-cover  uk-padding  " style={{height:"1190px"}}  data-src={bg2}  uk-img="loading: eager">
+{/* <div class="     uk-flex-center  uk-background-cover  uk-padding  " style={{height:"1190px"}}  data-src={bg4}  uk-img="loading: eager">
 
     <div>
   <p className=' uk-container   heading' >Perks Offered to Creators</p>
@@ -97,9 +165,9 @@ const Creator = () => {
   <div className=' uk-container uk-padding    ' > 
     <div className='uk-grid' uk-grid="">
   <div className='card ' >
-        <div class="crdimg  uk-card uk-card-default">
-            <div class="uk-card-media-top">
-                <img className='crdimg'  src={c1} width="352" height="200" />
+        <div class=" crdimg uk-card uk-card-default">
+            <div class="  uk-card-media-top">
+                <img className=''  width="352" height="200" />
             </div>
             <div class="uk-card-body">
                 <h3 class="uk-card-title">Media Top</h3>
@@ -109,9 +177,9 @@ const Creator = () => {
     </div>
 
   <div className='card'>
-        <div class="crdimg uk-card uk-card-default">
+        <div class=" crdimg uk-card uk-card-default">
             <div class=" uk-card-media-top">
-                <img className='' src={c2} width="352" height="200" />
+                <img className='' width="352" height="200" />
             </div>
             <div class="uk-card-body">
                 <h3 class="uk-card-title">Media Top</h3>
@@ -120,9 +188,9 @@ const Creator = () => {
         </div>
     </div>
   <div className='card'>
-        <div class="crdimg  uk-card uk-card-default">
+        <div class=" crdimg uk-card uk-card-default">
             <div class="uk-card-media-top">
-                <img src={c1} width="352" height="200" />
+                <img  width="352" height="200" />
             </div>
             <div class="uk-card-body">
                 <h3 class="uk-card-title">Media Top</h3>
@@ -132,9 +200,9 @@ const Creator = () => {
     </div>
 
   <div className='card'>
-        <div class= " crdimg uk-card uk-card-default">
+        <div class= " crdimg  uk-card uk-card-default">
             <div class="uk-card-media-top">
-                <img src={c2} width="352" height="200" />
+                <img  width="352" height="200" />
             </div>
             <div class="uk-card-body">
                 <h3 class="uk-card-title">Media Top</h3>
@@ -145,7 +213,7 @@ const Creator = () => {
   <div className='card'>
         <div class= " crdimg uk-card uk-card-default">
             <div class="uk-card-media-top">
-                <img src={c2} width="352" height="200" />
+                <img  width="352" height="200" />
             </div>
             <div class="uk-card-body">
                 <h3 class="uk-card-title">Media Top</h3>
@@ -159,10 +227,10 @@ const Creator = () => {
   </div>
   
     
-</div>
+</div> */}
 
 
-<section style={{height:"505px"}} >
+{/* <section style={{height:"505px"}} >
 <div class="    " style={{height:"505px"}}  data-src={bg3}  uk-img="loading: eager">
 
 
@@ -185,21 +253,21 @@ const Creator = () => {
 
   <div>
 
-  <p className='heading sec2heading '> Signup Here </p>
+  <p className='heading seheading '> Signup Here </p>
   <p className='bfont'>We help you get wings</p>
 
     
     <div className=''  style={{height:"567px" ,backgroundColor:""}} >
 
-      <div className='uk-padding '  style={{height:"40px" }} >
+    <div className='uk-padding '  style={{height:"40px" }} >
 
-    <ul class=" uk-flex-center formtabbutton" uk-switcher="connect:.formtab">
+<ul class="uk-subnav   uk-flex-center formtabbutton" uk-switcher="connect:.formtab">
 
-    <li className='underline-input2' ><a   style={{fontSize:"24px"  }} > 1.Personal Info </a> </li>
-    <li className='underline-input2' ><a style={{fontSize:"24px"}} > 2.Social Info </a></li>
-    </ul>
+<li className='underline-input2 ' ><a   style={{fontSize:"24px"  }} > 1.Personal Info </a> </li>
+<li className='underline-input2 ' ><a style={{fontSize:"24px"}} > 2.Social Info </a></li>
+</ul>
 
-      </div>
+</div>
 
 
 
@@ -266,7 +334,7 @@ const Creator = () => {
 <li> <div className='uk-grid   '>
 
 <div class="">
-  <label class="uk-align-left flabels " for="form-stacked-text">Name</label>
+  <label class="uk-align-left flabels " for="form-stacked-text">Name%%%%</label>
   <div class="">
       <input class="uk-input formw  " id="form-stacked-text" type="text" placeholder="First Name "/>
   </div>
@@ -328,7 +396,7 @@ const Creator = () => {
 
   </div>
 </div>
-</section>
+</section> */}
 
 
 <Footer/>
