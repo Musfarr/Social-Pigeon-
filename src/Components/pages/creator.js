@@ -8,7 +8,7 @@ import fb5 from "../../Assets/images/creators/fb4.svg"
 import fb6 from "../../Assets/images/creators/fb5.svg"
 import bg2 from "../../Assets/images/greenbg.svg"
 import bg3 from "../../Assets/images/creators/bg3.png"
-import bg4 from "../../Assets/images/green.svg"
+import bg4 from "../../Assets/images/creators/greenlg.svg"
 import c1 from "../../Assets/images/companies/c1.png"
 import c2 from "../../Assets/images/companies/c2.png"
 import Footer from '../common/footer'
@@ -63,7 +63,7 @@ const Creator = () => {
         </div>
 
 
-        <div className='  uk-grid-large     '  style={{width : "804px" , marginLeft:"10px" }} >
+        <div className='  uk-grid-large     '  style={{  marginLeft:"10px" }} >
 
         <img className='sociallogo' src={fb1}  />           
         <img className='sociallogo' src={fb2}  />           
@@ -88,7 +88,7 @@ const Creator = () => {
 
 
  
-<div class="     uk-flex-center  uk-background-cover  uk-padding  " style={{height:"1190px"}}  data-src={bg2}  uk-img="loading: eager">
+<div class="     uk-flex-center  uk-background-cover  uk-padding  " style={{height:"1190px"}}  data-src={bg4}  uk-img="loading: eager">
 
     <div>
   <p className=' uk-container   heading' >Perks Offered to Creators</p>
@@ -97,9 +97,9 @@ const Creator = () => {
   <div className=' uk-container uk-padding    ' > 
     <div className='uk-grid' uk-grid="">
   <div className='card ' >
-        <div class="crdimg  uk-card uk-card-default">
-            <div class="uk-card-media-top">
-                <img className='crdimg'  src={c1} width="352" height="200" />
+        <div class=" crdimg uk-card uk-card-default">
+            <div class="  uk-card-media-top">
+                <img className=''  src={c1} width="352" height="200" />
             </div>
             <div class="uk-card-body">
                 <h3 class="uk-card-title">Media Top</h3>
@@ -109,7 +109,7 @@ const Creator = () => {
     </div>
 
   <div className='card'>
-        <div class="crdimg uk-card uk-card-default">
+        <div class=" crdimg uk-card uk-card-default">
             <div class=" uk-card-media-top">
                 <img className='' src={c2} width="352" height="200" />
             </div>
@@ -120,7 +120,7 @@ const Creator = () => {
         </div>
     </div>
   <div className='card'>
-        <div class="crdimg  uk-card uk-card-default">
+        <div class=" crdimg uk-card uk-card-default">
             <div class="uk-card-media-top">
                 <img src={c1} width="352" height="200" />
             </div>
@@ -132,7 +132,7 @@ const Creator = () => {
     </div>
 
   <div className='card'>
-        <div class= " crdimg uk-card uk-card-default">
+        <div class= " crdimg  uk-card uk-card-default">
             <div class="uk-card-media-top">
                 <img src={c2} width="352" height="200" />
             </div>
@@ -191,15 +191,15 @@ const Creator = () => {
     
     <div className=''  style={{height:"567px" ,backgroundColor:""}} >
 
-      <div className='uk-padding '  style={{height:"40px" }} >
+    <div className='uk-padding '  style={{height:"40px" }} >
 
-    <ul class=" uk-flex-center formtabbutton" uk-switcher="connect:.formtab">
+<ul class="uk-subnav   uk-flex-center formtabbutton" uk-switcher="connect:.formtab">
 
-    <li className='underline-input2' ><a   style={{fontSize:"24px"  }} > 1.Personal Info </a> </li>
-    <li className='underline-input2' ><a style={{fontSize:"24px"}} > 2.Social Info </a></li>
-    </ul>
+<li className='underline-input2 ' ><a   style={{fontSize:"24px"  }} > 1.Personal Info </a> </li>
+<li className='underline-input2 ' ><a style={{fontSize:"24px"}} > 2.Social Info </a></li>
+</ul>
 
-      </div>
+</div>
 
 
 
@@ -266,7 +266,7 @@ const Creator = () => {
 <li> <div className='uk-grid   '>
 
 <div class="">
-  <label class="uk-align-left flabels " for="form-stacked-text">Name</label>
+  <label class="uk-align-left flabels " for="form-stacked-text">Name%%%%</label>
   <div class="">
       <input class="uk-input formw  " id="form-stacked-text" type="text" placeholder="First Name "/>
   </div>

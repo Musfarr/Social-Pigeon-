@@ -72,7 +72,9 @@ opacity: 1;
 }
 
 .crdimg{
-    border-radius: 20px;
+    
+    border-top-left-radius:20px ;
+    border-top-right-radius:20px ;
 }
 
 .navbar{
@@ -91,10 +93,7 @@ opacity: 1;
     border-radius: 20px;
 
 }
-.tbbtn{
-    padding: 0px;
-    padding-left: 0;
-}
+
 .tabimg{
     padding-left: 101px;
 }
@@ -215,8 +214,7 @@ opacity: 1;
     background-color: transparent; 
     width: 44%; 
     margin-inline-end: 20px;
-    
-  }  
+  }
 
   .wheading2{
 
@@ -286,9 +284,9 @@ a, .uk-link {
 
 @media only screen and (max-width: 600px) {
     body {
+        font-size: smaller;
     }
 
-    
 
   }
 

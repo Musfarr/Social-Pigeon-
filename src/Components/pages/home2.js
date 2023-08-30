@@ -1,8 +1,8 @@
 import React from 'react'
 import bg1 from "../../Assets/images/companies/bg1.png"
-import bg2 from "../../Assets/images/greenbg.svg"
+import bg2 from "../../Assets/images/creators/greenlg.svg"
 import bg3 from "../../Assets/images/wide.png"
-import bg4 from "../../Assets/images/green.svg"
+
 import tabimg from "../../Assets/images/tabimg.png"
 import Footer from '../common/footer'
 import Header from '../common/header'
@@ -215,7 +215,6 @@ const Home2 = () => {
 
     
     <div className=''  style={{height:"567px" ,backgroundColor:""}} >
-
     <div className='uk-padding '  style={{height:"40px" }} >
 
 <ul class="uk-subnav   uk-flex-center formtabbutton" uk-switcher="connect:.formtab">

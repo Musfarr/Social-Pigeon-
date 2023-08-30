@@ -48,7 +48,6 @@ const Home = () => {
 
 
 <section style={{height:"842px"}} >
-
     <div className='uk-flex uk-flex-center uk-flex-middle uk-text-center sec2heading  ' >
         <div className='' >
             <h1  className='bt' style={{fontWeight:"700" , }}> About social pigeons </h1>
@@ -174,9 +173,8 @@ const Home = () => {
 
 
 
-    <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slider="">
-
-    <ul class="uk-slider-items uk-child-width-1-2 uk-child-width-1-3@s uk-child-width-1-4@m">
+    <div class=" uk-container uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slider="">
+    <ul class=" uk-slider-items uk-child-width-1-4 uk-child-width-1-3@s uk-child-width-1-6@m">
         <li>
         <img src={L1} />
         </li>
