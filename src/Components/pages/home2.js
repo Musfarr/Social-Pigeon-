@@ -1,15 +1,12 @@
-<<<<<<< HEAD
 import React from 'react'
 import bg1 from "../../Assets/images/companies/bg1.png"
 import bg2 from "../../Assets/images/creators/greenlg.svg"
 import bg3 from "../../Assets/images/wide.png"
 
 import tabimg from "../../Assets/images/tabimg.png"
-=======
 import React, { useState, useEffect } from 'react';
 import bg2 from "../../Assets/images/circle.jpg"
 
->>>>>>> bec7e18735b4e43873709f53af1864e312e96b8f
 import Footer from '../common/footer'
 
 

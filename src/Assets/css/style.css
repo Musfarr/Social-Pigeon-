@@ -66,16 +66,15 @@ background: linear-gradient(to top, #470101, #000000);
 
 
 }
-<<<<<<< HEAD
 
 .crdimg{
     
     border-top-left-radius:20px ;
     border-top-right-radius:20px ;
-=======
+}
+
 .cardtext{
     color: #CCCCCC;
->>>>>>> bec7e18735b4e43873709f53af1864e312e96b8f
 }
 
 
@@ -290,23 +289,8 @@ a, .uk-link {
 @media only screen and (max-width: 600px) {
     body {
         font-size: smaller;
-<<<<<<< HEAD
     }
 
-=======
-        width: 100vh;
-    }
-
-    .tabbuttons{
-        width: 35vh;
-    }
-    .cntctform{
-
-    }
-    .foot{
-        margin-top: 50vh;
-    }
->>>>>>> bec7e18735b4e43873709f53af1864e312e96b8f
 
   }
 

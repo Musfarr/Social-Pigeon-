@@ -41,6 +41,8 @@ const Home = () => {
     
 
   return (
+<div>
+<section>
 <div className='bgnn uk-background-cover uk-background-fixed uk-background-center-center ' data-src = "https://images.unsplash.com/photo-1490822180406-880c226c150b?fit=crop&w=650&h=433&q=80" uk-img = "loading : eager"  >
 
 
@@ -54,13 +56,13 @@ const Home = () => {
      <div >   
     
     </div>
-<<<<<<< HEAD
     <div style={{width:"444px"}} >
         <p className='wt' style={{fontSize:"24px" , fontWeight:"400"}} >Navigate your digital world with exceptional influencers and social media marketing.</p>
     </div>
     </div>
 
 
+</div>
 </div>
 </section>
 
@@ -75,11 +77,6 @@ const Home = () => {
 
             <div style={{width:"620px" }}>
             <h5 className='bt'  style={{fontWeight:"400" , fontSize:"22px"}} > A platform that helps influencers and brands stay digitally connected to smartly market the products and services. </h5>
-=======
-        <div className="uk-container uk-padding-large">
-            <div className='h1bg' style={{ width: "427px" }}>
-            <h1 className='hanim1' data-heading="i">Eifers</h1>
->>>>>>> bec7e18735b4e43873709f53af1864e312e96b8f
             </div>
 
             <div>
@@ -91,11 +88,9 @@ const Home = () => {
             </div> */}
         </div>
     </div>
-</div>
 
 
  
-
 
 
 
@@ -156,7 +151,6 @@ const Home = () => {
 </ul>
 </div>
 
-<<<<<<< HEAD
 
 
 
@@ -220,8 +214,6 @@ const Home = () => {
 
 
 
-=======
->>>>>>> bec7e18735b4e43873709f53af1864e312e96b8f
 <section>
 <div class="uk-section uk-section-large uk-background-secondary uk-light ">
 	<div class="uk-container">

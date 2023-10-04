@@ -172,11 +172,7 @@ const Creator = () => {
 
 
  
-<<<<<<< HEAD
 <div class="     uk-flex-center  uk-background-cover  uk-padding  " style={{height:"1190px"}}  data-src={bg4}  uk-img="loading: eager">
-=======
-{/* <div class="     uk-flex-center  uk-background-cover  uk-padding  " style={{height:"1190px"}}  data-src={bg4}  uk-img="loading: eager">
->>>>>>> bec7e18735b4e43873709f53af1864e312e96b8f
 
     <div>
   <p className=' uk-container   heading' >Perks Offered to Creators</p>
@@ -187,11 +183,7 @@ const Creator = () => {
   <div className='card ' >
         <div class=" crdimg uk-card uk-card-default">
             <div class="  uk-card-media-top">
-<<<<<<< HEAD
                 <img className=''  src={c1} width="352" height="200" />
-=======
-                <img className=''  width="352" height="200" />
->>>>>>> bec7e18735b4e43873709f53af1864e312e96b8f
             </div>
             <div class="uk-card-body">
                 <h3 class="uk-card-title">Media Top</h3>
@@ -251,7 +243,7 @@ const Creator = () => {
   </div>
   
     
-</div> */}
+</div> */
 
 
 {/* <section style={{height:"505px"}} >
