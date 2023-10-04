@@ -1,5 +1,4 @@
 import React from 'react'
-<<<<<<< HEAD
 import bg1 from "../../Assets/images/creators/bg1.png"
 import fb1 from "../../Assets/images/creators/fb.svg"
 import fb2 from "../../Assets/images/creators/fb1.svg"
@@ -13,8 +12,6 @@ import bg4 from "../../Assets/images/creators/greenlg.svg"
 import c1 from "../../Assets/images/companies/c1.png"
 import c2 from "../../Assets/images/companies/c2.png"
 import Footer from '../common/footer'
-=======
->>>>>>> bec7e18735b4e43873709f53af1864e312e96b8f
 import Header from '../common/header'
 // import  from "../../Assets/images/companies/.png"
 // import  from "../../Assets/images/companies/.png"
