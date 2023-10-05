@@ -105,15 +105,7 @@ const Home2 = () => {
 </ul>
 
 
-
-
-
-
-
-
-
 </section>
-
 
 
  
