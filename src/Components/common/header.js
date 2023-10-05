@@ -1,5 +1,5 @@
 import React from 'react'
-import logo from "../../Assets/images/logo.jpg"
+import logo from "../../Assets/images/logo1.svg"
 import { Link } from 'react-router-dom'
 
 
@@ -7,23 +7,23 @@ const Header = () => {
   return (
     <div>
 
-<nav class="uk-navbar-container  "   style={{backgroundColor:"white"}} >
-    <div class="uk-container navbar  "  >
-        <div uk-navbar >
+<nav class="uk-navbar-container   " style={{backgroundColor:"transparent"}} >
+    <div class="uk-container navbar ">
+        <div uk-navbar>
 
-            <div class="uk-navbar-left"   >
+            <div class="uk-navbar-left" >
             <Link to={"/"}>
-            <div style={{width:"150px" , height:"100px"}} >
-            <img style={{paddingTop:"2vh"}} src={logo} />
+            <div>
+            <img src={logo} />
             </div >  
             </Link>
 
-             <ul class="uk-navbar-nav  " style={{marginLeft:"48%", marginTop:"2vh"  , fontWeight: "600" }} >
+             <ul class="uk-navbar-nav  " style={{marginLeft:"48%" }} >
                     <li>
-                        <a href="#" className='black'  >
-                        <Link to={"/" } style={{color:'black'}} >
-                            <span class=" uk-margin-small-right black  "    ></span>
-                            Home
+                        <a href="#" className='wt'  >
+                        <Link to={"/creator"}>
+                            <span class=" uk-margin-small-right wt  headerbutton"    ></span>
+                            For creators
                         </Link>
                         </a>
                     </li>
@@ -31,9 +31,9 @@ const Header = () => {
 
                     <li>
                         <a href="#">
-                        <Link to={"/creator"} style={{color:'black'}}  > 
-                            <span  class=" uk-margin-small-right   " ></span>
-                            Services
+                        <Link to={"/home2"}> 
+                            <span class=" uk-margin-small-right wt headerbutton" ></span>
+                            For company 
                         </Link>
                         </a>
                     </li>
@@ -41,12 +41,9 @@ const Header = () => {
 
                
 
-                <div class="uk-navbar-item" style={{paddingBottom:"28px"}} >
+                <div class="uk-navbar-item">
                     <form action="javascript:void(0)">
-                     <Link to={"/contact"}>   
-                    <button style={{backgroundColor:'darkgrey' , borderRadius:"20px",marginTop:"4.5vh" }} class="uk-button uk-button-primary custombtn ">Contact</button>
-                    </Link>
-                    
+                    <button style={{backgroundColor:"#02EF93" , borderRadius:"20px" }} class="uk-button uk-button-primary ">JOIN</button>
                     </form>
                 </div>
 
