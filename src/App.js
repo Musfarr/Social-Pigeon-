@@ -1,6 +1,5 @@
 // import './App.css';
 import Home from './Components/pages/home';
-
 import { BrowserRouter , Route , Routes }  from 'react-router-dom';
 import Creator from './Components/pages/creator';
 import Home2 from './Components/pages/home2';

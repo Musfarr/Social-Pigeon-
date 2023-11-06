@@ -27,7 +27,7 @@ const Home = () => {
 
 <section  >
 
-<div class="uk-height-large  uk-background-cover uk-light   " style={{height:"768px"}}  data-src={bg1}  uk-img="loading: eager">
+<div class="uk-height-large  uk-background-cover uk-light   " style={{height:"768px"}}  data-src={bg1}  uk-img="loading: lazy">
     <Header/>
     
     <div className='uk-container uk-padding-large '>
@@ -71,7 +71,7 @@ const Home = () => {
 
 
  
-<div class="uk-flex uk-flex-center uk-flex-middle uk-background-cover uk-light" style={{height:"766px"}}  data-src={bg2}  uk-img="loading: eager">
+<div class="uk-flex uk-flex-center uk-flex-middle uk-background-cover uk-light" style={{height:"766px"}}  data-src={bg2}  uk-img="loading: lazy">
 
 
 <div className='' style={{width:"444px"}} >
@@ -220,7 +220,7 @@ const Home = () => {
 
 
 <section>
-<div class="uk-flex uk-background-cover " style={{height:"500px"}}  data-src={bg}  uk-img="loading: eager"  >
+<div class="uk-flex uk-background-cover " style={{height:"500px"}}  data-src={bg}  uk-img="loading: lazy"  >
 
   <div className='uk-container uk-align-right '>
     <p className='wheading' > Take your vision across <br /> the world, work with us </p>
@@ -387,7 +387,7 @@ const Home = () => {
 
 
 <section>
-<div class="uk-flex uk-flex-column  uk-flex-middle uk-padding uk-background-cover uk-light " style={{height:"300px"}}  data-src={bg4}  uk-img="loading: eager">
+<div class="uk-flex uk-flex-column  uk-flex-middle uk-padding uk-background-cover uk-light " style={{height:"300px"}}  data-src={bg4}  uk-img="loading: lazy">
   <p className='heading' >Subscribe to Newsletter</p>
   <span uk-icon="icon: check"></span>
 
